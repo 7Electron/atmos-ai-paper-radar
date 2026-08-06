@@ -3,10 +3,14 @@ name: Run Arxiv Papers Daily
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 3 * * 1"
+  - cron: "30 08 * * *"
+    timezone: "Asia/Shanghai"
   push:
     branches: [main]
-
+    
+permissions:
+  contents: write
+  
 jobs:
   build:
     runs-on: ubuntu-latest
