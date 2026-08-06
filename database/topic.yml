@@ -1,62 +1,22 @@
-"Computer Vision":
-  "Image Classification": '"Image Classification"'
-  "Keypoint Detection": '"Keypoint Detection"OR"Feature Descriptor"'
-  "Image Matching": '"Image Matching"'
-  "Semantic Segmentation": '"Semantic Segmentation"'
-  "Instance Segmentation": '"Instance Segmentation"'
-  "Object Detection": '"Object Detection"OR"Object Detector"'
-  "Object Tracking": '"Object Tracking"OR"Visual Object Tracking"'
-  "Multi-Object Tracking": '"Multi-Object Tracking"OR"Multiple Ojbect Tracking"OR"MOT"OR"Multiple Visual Object Tracking"'
+"Atmospheric Aerosols":
+  "Dust Aerosols": '(ti:dust OR abs:dust OR ti:mineral OR abs:mineral) AND (ti:aerosol OR abs:aerosol)'
 
-"3D Vision":
-  "3D Object Detection": '"3D Object Detection"OR"3D Object Detector"OR"Point Cloud Object Detection"'
-  "3D Object Tracking": '"3D Object Tracking"OR"Point Cloud Object Tracking"OR"3D Multi-Object Tracking"'
-  "Point Cloud": '"Point Cloud"'
-  "Point Cloud Completion": '"Point Cloud Completion"'
-  "Point Cloud Segmentation": '"Point Cloud Segmentation"'
-  "Point Cloud Matching": '"Point Cloud Matching"'
-  "Point Cloud Registration": '"Point Cloud Registration"'
-  "Visual Localization": '"Camera Localization"OR"Visual Localization"OR"Camera Re-localisation"OR"Loop Closure Detection"OR"visual place recognition"OR"image retrieval"'
-  "Keypoint Detection": '"Keypoint Detection"OR"Feature Descriptor"'
-  "Image Matching": '"Image Matching"OR"Keypoint Matching"'
+  "Aerosol Optical Properties": '(ti:aerosol OR abs:aerosol) AND (ti:extinction OR abs:extinction OR ti:backscatter OR abs:backscatter OR ti:scattering OR abs:scattering)'
 
-"Face Reenactment":
-  "Face Reenactment": '"Face Reenactment"OR"portrait reenactment"'
 
-"Talking Faces":
-  "Talking Faces": '"Talking Faces"OR"audio driven"OR"audio-driven"'
+"Lidar Remote Sensing":
+  "Aerosol Lidar Retrieval": '(ti:lidar OR abs:lidar) AND (ti:aerosol OR abs:aerosol) AND (ti:retrieval OR abs:retrieval OR ti:inversion OR abs:inversion)'
 
-"Federated Learning":
-  "Federated Learning": '"Federated Learning"OR"Federated Machine Learning"'
-  "Personalized": '"Federated Learning"AND("Personalized")'
-  "Optimization": '"Federated Learning"AND("Optimization"OR"Optimizated"OR"Optimal")'
-  "Heterogeneous": '"Federated Learning"AND("Heterogeneous"OR"Heterogeneity"OR"non-IID")'
-  "Asynchronous": '"Federated Learning"AND("Asynchronous"OR"Async"OR"FedAsync")'
-  "Benchmark": '"Federated Learning"AND"Benchmark"'
-  "Dataset": '"Federated Learning"AND"Dataset"'
-  "Framework": '"Federated Learning"AND"Framework"'
+  "Dust and Aerosol Depolarization": '(ti:lidar OR abs:lidar) AND (ti:depolarization OR abs:depolarization OR ti:depolarisation OR abs:depolarisation) AND (ti:dust OR abs:dust OR ti:aerosol OR abs:aerosol)'
 
-"Few-shot Learning":
-  "Few-shot Learning": '"Few-shot Learning"OR"Few-shot"OR"Meta-Learning"OR"One-shot Learning"'
-  "One-shot Learning": '"One-shot Learning"'
-  "Meta Learning": '"Meta Learning"OR"Meta-Learning"'
+  "Lidar Extinction and Backscatter": '(ti:lidar OR abs:lidar) AND (ti:extinction OR abs:extinction OR ti:backscatter OR abs:backscatter)'
 
-"Unsupervised Learning":
-  "Unsupervised Learning": '"Unsupervised Learning"'
 
-"Transfer Learning":
-  "Transfer Learning": '"Transfer Learning"OR"Transfer Machine Learning"'
+"Atmospheric AI":
+  "Machine Learning for Aerosol Retrieval": '(ti:aerosol OR abs:aerosol) AND (ti:retrieval OR abs:retrieval OR ti:inversion OR abs:inversion) AND (ti:learning OR abs:learning OR ti:neural OR abs:neural)'
 
-"Contrastive Learning":
-  "Contrastive Learning": '"Contrastive Learning"'
+  "Satellite Aerosol Retrieval": '(ti:satellite OR abs:satellite OR ti:remote OR abs:remote) AND (ti:aerosol OR abs:aerosol) AND (ti:retrieval OR abs:retrieval)'
 
-"Reinforcement Learning":
-  "Reinforcement Learning": '"Reinforcement Learning"OR"RL"'
+  "Neural Operators": '(ti:PINO OR abs:PINO OR (ti:neural AND ti:operator) OR (abs:neural AND abs:operator))'
 
-"Transformer":
-  "Transformer": '"Transformer"'
-  "Vision Transformer": '"Vision Transformer"OR"Computer Vision Transformer"'
-
-"Graph Neural Network":
-  "Graph Neural Network": '"Graph Neural Network"'
-
+  "Neural Operators for Atmosphere": '(ti:neural OR abs:neural OR ti:PINO OR abs:PINO) AND (ti:operator OR abs:operator OR ti:PINO OR abs:PINO) AND (ti:atmosphere OR abs:atmosphere OR ti:atmospheric OR abs:atmospheric OR ti:weather OR abs:weather OR ti:aerosol OR abs:aerosol)'
