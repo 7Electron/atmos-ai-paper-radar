@@ -161,9 +161,7 @@ class CoroutineSpeedup:
             #   'frameworks': [],
             #   'status': 'OK'
             # }
-            response = ToolBox.handle_html(code_url) or {}
-            official_ = response.get("official")
-            repo_url = official_.get("url", "null") if official_ else "null"
+            repo_url = "null"
             # ----------------------------------------------------------------------------------
             # 编排模型
             # ----------------------------------------------------------------------------------
@@ -340,7 +338,7 @@ class Scaffold:
         pass
 
     @staticmethod
-    @logger.catch()
+    @logger.catch(reraise=True)
     def run(env: str = "development", power: int = 16):
         """
         Start the test sample.
