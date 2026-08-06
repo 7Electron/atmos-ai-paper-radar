@@ -348,9 +348,15 @@ class Scaffold:
         context = ToolBox.get_yaml_data()
 
         # Set tasks
-        pending_atomic = [{"subtopic": subtopic, "keyword": keyword.replace('"', ""), "topic": topic}
-                          for topic, subtopics in context.items() for subtopic, keyword in subtopics.items()]
-
+        pending_atomic = [
+    {
+        "subtopic": subtopic,
+        "keyword": keyword,
+        "topic": topic,
+    }
+    for topic, subtopics in context.items()
+    for subtopic, keyword in subtopics.items()
+]
         # Offload tasks
         booster = CoroutineSpeedup(task_docker=pending_atomic)
         booster.go(power=power)
