@@ -86,7 +86,7 @@ class CoroutineSpeedup:
 
         self.cache_space = []
 
-        self.max_results = 30
+        self.max_results = 10
 
     def _adaptor(self):
         while not self.worker.empty():
@@ -102,24 +102,24 @@ class CoroutineSpeedup:
         return p
 
     def runtime(self, context: dict):
-    keyword_ = context.get("keyword")
-
-    search = arxiv.Search(
-        query=keyword_,
-        max_results=self.max_results,
-        sort_by=arxiv.SortCriterion.SubmittedDate,
-    )
-
-    client = arxiv.Client(
-        page_size=self.max_results,
-        delay_seconds=3.0,
-        num_retries=3,
-    )
-
-    res = client.results(search)
-
-    context.update({"response": res, "hook": context})
-    self.worker.put_nowait(context)
+        keyword_ = context.get("keyword")
+    
+        search = arxiv.Search(
+            query=keyword_,
+            max_results=self.max_results,
+            sort_by=arxiv.SortCriterion.SubmittedDate,
+        )
+    
+        client = arxiv.Client(
+            page_size=self.max_results,
+            delay_seconds=3.0,
+            num_retries=3,
+        )
+    
+        res = client.results(search)
+    
+        context.update({"response": res, "hook": context})
+        self.worker.put_nowait(context)
 
     def parse(self, context):
         base_url = "https://arxiv.paperswithcode.com/api/v0/papers/"
