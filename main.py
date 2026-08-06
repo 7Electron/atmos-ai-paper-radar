@@ -102,16 +102,24 @@ class CoroutineSpeedup:
         return p
 
     def runtime(self, context: dict):
-        keyword_ = context.get("keyword")
+    keyword_ = context.get("keyword")
 
-        res = arxiv.Search(
-            query=keyword_,
-            max_results=self.max_results,
-            sort_by=arxiv.SortCriterion.SubmittedDate
-        ).results()
+    search = arxiv.Search(
+        query=keyword_,
+        max_results=self.max_results,
+        sort_by=arxiv.SortCriterion.SubmittedDate,
+    )
 
-        context.update({"response": res, "hook": context})
-        self.worker.put_nowait(context)
+    client = arxiv.Client(
+        page_size=self.max_results,
+        delay_seconds=3.0,
+        num_retries=3,
+    )
+
+    res = client.results(search)
+
+    context.update({"response": res, "hook": context})
+    self.worker.put_nowait(context)
 
     def parse(self, context):
         base_url = "https://arxiv.paperswithcode.com/api/v0/papers/"
@@ -153,7 +161,7 @@ class CoroutineSpeedup:
             #   'frameworks': [],
             #   'status': 'OK'
             # }
-            response = ToolBox.handle_html(code_url)
+            response = ToolBox.handle_html(code_url) or {}
             official_ = response.get("official")
             repo_url = official_.get("url", "null") if official_ else "null"
             # ----------------------------------------------------------------------------------
@@ -227,7 +235,7 @@ class CoroutineSpeedup:
         for _ in range(self.power):
             task = gevent.spawn(self._adaptor)
             task_list.append(task)
-        gevent.joinall(task_list)
+        gevent.joinall(task_list, raise_error=True)
 
 
 class _OverloadTasks:
