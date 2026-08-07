@@ -17,6 +17,8 @@
 
   "Satellite Aerosol Retrieval": '(ti:satellite OR abs:satellite OR ti:remote OR abs:remote) AND (ti:aerosol OR abs:aerosol) AND (ti:retrieval OR abs:retrieval)'
 
-  "Neural Operators": '(ti:PINO OR abs:PINO OR (ti:neural AND ti:operator) OR (abs:neural AND abs:operator))'
+ "General Neural Operator Methods": '(ti:"neural operator" OR abs:"neural operator" OR ti:"Fourier neural operator" OR abs:"Fourier neural operator" OR ti:PINO OR abs:PINO)'
 
-  "Neural Operators for Atmosphere": '(ti:neural OR abs:neural OR ti:PINO OR abs:PINO) AND (ti:operator OR abs:operator OR ti:PINO OR abs:PINO) AND (ti:atmosphere OR abs:atmosphere OR ti:atmospheric OR abs:atmospheric OR ti:weather OR abs:weather OR ti:aerosol OR abs:aerosol)'
+  "Neural Operators for Atmosphere": '(ti:"neural operator" OR abs:"neural operator" OR ti:"Fourier neural operator" OR abs:"Fourier neural operator" OR ti:PINO OR abs:PINO) AND (ti:atmosphere OR abs:atmosphere OR ti:atmospheric OR abs:atmospheric OR ti:weather OR abs:weather OR ti:climate OR abs:climate OR ti:aerosol OR abs:aerosol OR ti:"remote sensing" OR abs:"remote sensing")'
+  
+  "Neural Operators for Aerosol and Lidar": '(ti:"neural operator" OR abs:"neural operator" OR ti:"Fourier neural operator" OR abs:"Fourier neural operator" OR ti:PINO OR abs:PINO) AND (ti:aerosol OR abs:aerosol OR ti:lidar OR abs:lidar OR ti:dust OR abs:dust OR ti:retrieval OR abs:retrieval OR ti:inversion OR abs:inversion)'
