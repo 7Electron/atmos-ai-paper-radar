@@ -17,6 +17,7 @@ from gevent import monkey
 monkey.patch_all()
 import gevent
 from gevent.queue import Queue
+from gevent.lock import Semaphore
 from datetime import datetime
 import requests
 import arxiv
@@ -87,6 +88,13 @@ class CoroutineSpeedup:
         self.cache_space = []
 
         self.max_results = 10
+        # Reuse one client so its request pacing applies across every topic.
+        self.arxiv_client = arxiv.Client(
+            page_size=self.max_results,
+            delay_seconds=5.0,
+            num_retries=8,
+        )
+        self.arxiv_client_lock = Semaphore()
 
     def _adaptor(self):
         while not self.worker.empty():
@@ -110,13 +118,11 @@ class CoroutineSpeedup:
             sort_by=arxiv.SortCriterion.SubmittedDate,
         )
     
-        client = arxiv.Client(
-            page_size=self.max_results,
-            delay_seconds=3.0,
-            num_retries=3,
-        )
-    
-        res = client.results(search)
+        # arXiv asks clients to leave at least three seconds between requests.
+        # Serializing access also prevents concurrent topics from bypassing the
+        # pacing state kept by arxiv.Client.
+        with self.arxiv_client_lock:
+            res = list(self.arxiv_client.results(search))
     
         context.update({"response": res, "hook": context})
         self.worker.put_nowait(context)
@@ -210,7 +216,11 @@ class CoroutineSpeedup:
 
             # 生成 mkdocs 所需文件
             os.makedirs(os.path.join(SERVER_PATH_DOCS, f'{context["topic"]}'), exist_ok=True)
-            with open(os.path.join(SERVER_PATH_DOCS, f'{context["topic"]}', f'{context["subtopic"]}.md'), 'w') as f:
+            with open(
+                    os.path.join(SERVER_PATH_DOCS, f'{context["topic"]}', f'{context["subtopic"]}.md'),
+                    "w",
+                    encoding="utf8",
+            ) as f:
                 f.write(md_obj["content"])
                
 
@@ -253,8 +263,7 @@ class _OverloadTasks:
     # -------------------
     @staticmethod
     def _build():
-        if not os.path.exists(SERVER_DIR_STORAGE):
-            os.mkdir(SERVER_DIR_STORAGE)
+        os.makedirs(SERVER_DIR_STORAGE, exist_ok=True)
 
     @staticmethod
     def _set_markdown_hyperlink(text, link):
