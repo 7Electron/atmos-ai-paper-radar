@@ -48,8 +48,8 @@ class CoroutineSpeedupTests(unittest.TestCase):
             docs_text = (
                 docs_dir / "Atmospheric AI" / "Unicode metadata.md"
             ).read_text(encoding="utf8")
-            storage_text = (
-                storage_dir / "storage_2026-08-21.md"
+            storage_text = Path(
+                storage_pattern.format(main.ToolBox.log_date("file"))
             ).read_text(encoding="utf8")
 
             self.assertIn("Señorita", docs_text)
