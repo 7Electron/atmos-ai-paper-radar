@@ -3,56 +3,69 @@ name: Run Arxiv Papers Daily
 on:
   workflow_dispatch:
   schedule:
-  - cron: "30 08 * * *"
-    timezone: "Asia/Shanghai"
+    - cron: "17 09 * * *"
+      timezone: "Asia/Shanghai"
   push:
     branches: [main]
-    
+
+concurrency:
+  group: arxiv-daily-main
+  cancel-in-progress: false
+
 permissions:
   contents: write
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     env:
       TZ: "Asia/Shanghai"
-      RUN_ENV: "production" # within ['production', 'development']
+      PYTHONUTF8: "1"
+      RUN_ENV: "production"
       POWER: 1
     steps:
-      # ============================================
-      # TODO [√] 检查工作分支及 Workflows 运行环境
-      # ============================================
       - name: Checkout
-        uses: actions/checkout@v2
-      # ============================================
-      # TODO [√] 创建 Python3.6+ 编译环境
-      # ============================================
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v2
+        uses: actions/checkout@v6
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v6
         with:
-          python-version: 3.8
-      # ============================================
-      # TODO [√] 安装 Project 第三方依赖
-      # ============================================
+          python-version: "3.12"
+          cache: pip
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      # ============================================
-      # TODO [√] 测试 Scaffold 脚手架指令
-      # ============================================
-      - name: Run daily arxiv
-        run: |
-          python main.py run --env=${{ env.RUN_ENV }} --power=${{ env.POWER }}
-      # ============================================
-      # TODO [√] 更新仓库数据
-      # ============================================
-      - name: Setup GIT user
-        uses: fregante/setup-git-user@v1
+          pip install -r requirements.txt
 
-      - name: Push done work
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Run daily arxiv
+        shell: bash
         run: |
-          git add --all
+          for attempt in 1 2 3; do
+            if python main.py run --env="${{ env.RUN_ENV }}" --power="${{ env.POWER }}"; then
+              exit 0
+            fi
+
+            if [ "$attempt" -lt 3 ]; then
+              delay=$((attempt * 300))
+              echo "arXiv request failed; retrying in ${delay}s (attempt $((attempt + 1))/3)"
+              sleep "$delay"
+            fi
+          done
+
+          echo "arXiv request failed after 3 attempts."
+          exit 1
+
+      - name: Commit generated papers
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- README.md database/storage
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
@@ -60,11 +73,6 @@ jobs:
 
           git commit -m "Automated update @ $(date '+%Y-%m-%d %H:%M:%S')"
           git push origin HEAD:main
-      # ============================================
-      # TODO [√] 更新 mkdocs
-      # ============================================
+
       - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REQUIREMENTS: requirements-mkdocs.txt
+        run: mkdocs gh-deploy --force
