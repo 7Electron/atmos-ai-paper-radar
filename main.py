@@ -16,8 +16,8 @@ from gevent import monkey
 
 monkey.patch_all()
 import gevent
-from gevent.queue import Queue
 from gevent.lock import Semaphore
+from gevent.queue import Queue
 from datetime import datetime
 import requests
 import arxiv
@@ -31,9 +31,11 @@ from config import (
     SERVER_PATH_README,
     SERVER_PATH_DOCS,
     SERVER_PATH_STORAGE_MD,
+    SERVER_PATH_TRANSLATION_CACHE,
     TIME_ZONE_CN,
     logger
 )
+from translator import TitleTranslator
 
 
 class ToolBox:
@@ -88,13 +90,16 @@ class CoroutineSpeedup:
         self.cache_space = []
 
         self.max_results = 10
-        # Reuse one client so its request pacing applies across every topic.
+
+        # arXiv asks clients to leave at least three seconds between requests.
+        # Reuse one serialized client so separate topic queries share the same
+        # rate-limit state instead of each starting with no delay.
         self.arxiv_client = arxiv.Client(
             page_size=self.max_results,
             delay_seconds=5.0,
             num_retries=8,
         )
-        self.arxiv_client_lock = Semaphore()
+        self.arxiv_lock = Semaphore(1)
 
     def _adaptor(self):
         while not self.worker.empty():
@@ -118,10 +123,9 @@ class CoroutineSpeedup:
             sort_by=arxiv.SortCriterion.SubmittedDate,
         )
     
-        # arXiv asks clients to leave at least three seconds between requests.
-        # Serializing access also prevents concurrent topics from bypassing the
-        # pacing state kept by arxiv.Client.
-        with self.arxiv_client_lock:
+        # Exhaust the generator while holding the lock: network requests happen
+        # during iteration, not when Client.results() is called.
+        with self.arxiv_lock:
             res = list(self.arxiv_client.results(search))
     
         context.update({"response": res, "hook": context})
@@ -133,8 +137,9 @@ class CoroutineSpeedup:
         arxiv_res = context.get("response")
         for result in arxiv_res:
             paper_id = result.get_short_id()
-            paper_title = result.title
+            paper_title = result.title.strip()
             paper_url = result.entry_id
+            journal_name = (result.journal_ref or "未发表").strip()
 
             code_url = base_url + paper_id
             paper_first_author = result.authors[0]
@@ -179,9 +184,11 @@ class CoroutineSpeedup:
                 paper_key: {
                     "publish_time": publish_time,
                     "title": paper_title,
+                    "translated_title": "",
                     "authors": f"{paper_first_author} et.al.",
                     "id": paper_id,
                     "paper_url": paper_url,
+                    "journal": journal_name,
                     "repo": repo_url
                 },
             })
@@ -189,7 +196,15 @@ class CoroutineSpeedup:
             "paper": _paper,
             "topic": context["hook"]["topic"],
             "subtopic": context["hook"]["subtopic"],
-            "fields": ["Publish Date", "Title", "Authors", "PDF", "Code"]
+            "fields": [
+                "Publish Date",
+                "Title",
+                "中文译名",
+                "Authors",
+                "PDF",
+                "期刊 / 会议（原文）",
+                "Code",
+            ]
         })
         logger.success(
             f"handle [{self.channel.qsize()}/{self.max_queue_size}]"
@@ -204,9 +219,24 @@ class CoroutineSpeedup:
     def overload_tasks(self):
         ot = _OverloadTasks()
         file_obj: dict = {}
+        contexts = []
         while not self.channel.empty():
+            contexts.append(self.channel.get())
+
+        titles = [
+            paper["title"]
+            for context in contexts
+            for paper in context["paper"].values()
+        ]
+        translations = TitleTranslator(
+            SERVER_PATH_TRANSLATION_CACHE
+        ).translate_many(titles)
+
+        for context in contexts:
+            for paper in context["paper"].values():
+                paper["translated_title"] = translations[paper["title"]]
+
             # 将上下文替换成 Markdown 语法文本
-            context: dict = self.channel.get()
             md_obj: dict = ot.to_markdown(context)
 
             # 子主题分流
@@ -218,8 +248,8 @@ class CoroutineSpeedup:
             os.makedirs(os.path.join(SERVER_PATH_DOCS, f'{context["topic"]}'), exist_ok=True)
             with open(
                     os.path.join(SERVER_PATH_DOCS, f'{context["topic"]}', f'{context["subtopic"]}.md'),
-                    "w",
-                    encoding="utf8",
+                    'w',
+                    encoding='utf8',
             ) as f:
                 f.write(md_obj["content"])
                
@@ -269,9 +299,20 @@ class _OverloadTasks:
     def _set_markdown_hyperlink(text, link):
         return f"[{text}]({link})"
 
+    @staticmethod
+    def _escape_markdown_cell(text):
+        return str(text).replace("|", "\\|").replace("\n", " ").strip()
+
     def _generate_markdown_table_content(self, paper: dict):
         paper['publish_time'] = f"**{paper['publish_time']}**"
-        paper['title'] = f"**{paper['title']}**"
+        paper['title'] = f"**{self._escape_markdown_cell(paper['title'])}**"
+        paper['translated_title'] = self._escape_markdown_cell(
+            paper.get('translated_title', '未翻译')
+        )
+        paper['journal'] = self._escape_markdown_cell(
+            paper.get('journal') or '未发表'
+        )
+        paper['authors'] = self._escape_markdown_cell(paper['authors'])
         _pdf = self._set_markdown_hyperlink(
             text=paper['id'], link=paper['paper_url'])
         _repo = self._set_markdown_hyperlink(
@@ -279,8 +320,10 @@ class _OverloadTasks:
 
         line = f"|{paper['publish_time']}" \
                f"|{paper['title']}" \
+               f"|{paper['translated_title']}" \
                f"|{paper['authors']}" \
                f"|{_pdf}" \
+               f"|{paper['journal']}" \
                f"|{_repo}|\n"
 
         return line
@@ -316,9 +359,10 @@ class _OverloadTasks:
         _project = f"# arxiv-daily\n"
         _pin = f" Automated deployment @ {self.update_time} Asia/Shanghai\n"
         _tos = "> Welcome to contribute! Add your topics and keywords in " \
-               "[`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).\n"
+               "[`topic.yml`](https://github.com/7Electron/atmos-ai-paper-radar/blob/main/database/topic.yml).\n"
         _tos += "> You can also view historical data through the " \
-                "[storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).\n"
+                "[storage](https://github.com/7Electron/atmos-ai-paper-radar/blob/main/database/storage).\n"
+        _tos += "> 中文译名由 OpenAI 自动生成；期刊或会议名称保留 arXiv 收录的原文。\n"
 
         _form = _project + _pin + _tos + content
 
