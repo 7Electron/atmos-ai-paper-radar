@@ -24,6 +24,10 @@ SERVER_PATH_STORAGE_MD = join(SERVER_DIR_STORAGE, "storage_{}.md")
 
 SERVER_PATH_TOPIC = join(SERVER_DIR_DATABASE, "topic.yml")
 
+SERVER_PATH_TRANSLATION_CACHE = join(
+    SERVER_DIR_DATABASE, "title_translations.json"
+)
+
 # 服务器日志文件路径
 SERVER_DIR_DATABASE_LOG = join(SERVER_DIR_DATABASE, "logs")
 logger.add(
