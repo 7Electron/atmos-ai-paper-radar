@@ -3,68 +3,74 @@ name: Run Arxiv Papers Daily
 on:
   workflow_dispatch:
   schedule:
-  - cron: "30 08 * * *"
-    timezone: "Asia/Shanghai"
+    - cron: "17 09 * * *"
+      timezone: "Asia/Shanghai"
   push:
     branches: [main]
-    
+
 permissions:
   contents: write
-  
+
+concurrency:
+  group: arxiv-daily-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     env:
       TZ: "Asia/Shanghai"
-      RUN_ENV: "production" # within ['production', 'development']
+      RUN_ENV: "production"
       POWER: 1
-    steps:
-      # ============================================
-      # TODO [√] 检查工作分支及 Workflows 运行环境
-      # ============================================
-      - name: Checkout
-        uses: actions/checkout@v2
-      # ============================================
-      # TODO [√] 创建 Python3.6+ 编译环境
-      # ============================================
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
-      # ============================================
-      # TODO [√] 安装 Project 第三方依赖
-      # ============================================
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      # ============================================
-      # TODO [√] 测试 Scaffold 脚手架指令
-      # ============================================
-      - name: Run daily arxiv
-        run: |
-          python main.py run --env=${{ env.RUN_ENV }} --power=${{ env.POWER }}
-      # ============================================
-      # TODO [√] 更新仓库数据
-      # ============================================
-      - name: Setup GIT user
-        uses: fregante/setup-git-user@v1
+      PYTHONUTF8: 1
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_TRANSLATION_MODEL: "gpt-5-mini"
 
-      - name: Push done work
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Fetch papers and generate pages
         run: |
-          git add --all
+          for attempt in 1 2 3; do
+            if python main.py run --env=${{ env.RUN_ENV }} --power=${{ env.POWER }}; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              exit 1
+            fi
+            delay=$((attempt * 300))
+            echo "arXiv request failed; retrying in ${delay} seconds."
+            sleep "$delay"
+          done
+
+      - name: Commit generated content
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- README.md database/storage
+          if [ -f database/title_translations.json ]; then
+            git add -- database/title_translations.json
+          fi
           if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
+            echo "No generated changes to commit."
+          else
+            git commit -m "Automated update @ $(date '+%Y-%m-%d %H:%M:%S')"
+            git push origin HEAD:main
           fi
 
-          git commit -m "Automated update @ $(date '+%Y-%m-%d %H:%M:%S')"
-          git push origin HEAD:main
-      # ============================================
-      # TODO [√] 更新 mkdocs
-      # ============================================
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REQUIREMENTS: requirements-mkdocs.txt
+      - name: Deploy documentation
+        run: mkdocs gh-deploy --force
