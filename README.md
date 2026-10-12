@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-10-11 14:03:50 Asia/Shanghai
+ Automated deployment @ 2026-10-12 14:14:04 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -103,16 +103,16 @@
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-09**|**SBNO : Schrödinger Bridge Neural Operator for the Forward and Inverse Problems under Missing Information**|Jaehyeon Park et.al.|[2610.13317v1](http://arxiv.org/abs/2610.13317v1)|null|
+|**2026-10-09**|**Neural Surrogate Modeling of Ultrasonic Wave Propagation in Heterogeneous Media**|Burla Nur Korkmaz et.al.|[2610.13258v1](http://arxiv.org/abs/2610.13258v1)|null|
+|**2026-10-09**|**Low-Rank Kolmogorov-Arnold Generator Flows for Interpretable Operator Learning**|Minjong Cheon et.al.|[2610.13028v1](http://arxiv.org/abs/2610.13028v1)|null|
+|**2026-10-08**|**The Fast & Fourier: Using neural operators to speed up radiative modeling of protoplanetary disks**|Lukas Welzel et.al.|[2610.12632v1](http://arxiv.org/abs/2610.12632v1)|null|
 |**2026-10-08**|**Prior or Feedback? What an LLM Uses When Adapting Neural Operators**|Julian Chan et.al.|[2610.12325v1](http://arxiv.org/abs/2610.12325v1)|null|
 |**2026-10-08**|**Data-Driven Free-Energy Learning from Trajectories via Structure-Preserving Exponential Time Differencing**|Wenshuai Hu et.al.|[2610.11931v1](http://arxiv.org/abs/2610.11931v1)|null|
 |**2026-10-08**|**Numerical Neural Operator: Connection Between Numerical Analysis and the Operator Learning and Building Discretized Neural Operators from Finite Element Methods**|Zecheng Zhang et.al.|[2610.11120v1](http://arxiv.org/abs/2610.11120v1)|null|
 |**2026-10-07**|**F$^3$NO: Frequency-Decomposed Finite-Time Flow-map Neural Operators with Cross-Scale Conditioning**|Fan Wu et.al.|[2610.10998v1](http://arxiv.org/abs/2610.10998v1)|null|
 |**2026-10-07**|**Transferability of Learned States in Neural PDE Solvers**|Shunye Wang et.al.|[2610.10972v1](http://arxiv.org/abs/2610.10972v1)|null|
 |**2026-10-07**|**Beyond the Ergodic Wall: A Discrete Geometric Physics Sandbox for Analysing AI Scaling Limits and Complexity Collapse**|Simon Richard Daniel et.al.|[2610.10651v1](http://arxiv.org/abs/2610.10651v1)|null|
-|**2026-10-07**|**CAFE+FNO: Fourier Kernel Generation via Multiplicative Feature Composition**|Hyungjoon Juen et.al.|[2610.10105v1](http://arxiv.org/abs/2610.10105v1)|null|
-|**2026-10-07**|**Exact SO(3)-Equivariant Isotropic Kernels for Rotation-Robust Neural Dynamics**|Ridham Patel et.al.|[2610.10626v1](http://arxiv.org/abs/2610.10626v1)|null|
-|**2026-10-07**|**The Symbol of the Surrogate: Measuring Numerical Provenance in Neural PDE Solvers**|Ridham Patel et.al.|[2610.09255v1](http://arxiv.org/abs/2610.09255v1)|null|
-|**2026-10-06**|**Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion**|Luke Bhan et.al.|[2610.08764v1](http://arxiv.org/abs/2610.08764v1)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
@@ -131,6 +131,9 @@
 ### Neural Operators for Aerosol and Lidar
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-09**|**SBNO : Schrödinger Bridge Neural Operator for the Forward and Inverse Problems under Missing Information**|Jaehyeon Park et.al.|[2610.13317v1](http://arxiv.org/abs/2610.13317v1)|null|
+|**2026-10-09**|**Neural Surrogate Modeling of Ultrasonic Wave Propagation in Heterogeneous Media**|Burla Nur Korkmaz et.al.|[2610.13258v1](http://arxiv.org/abs/2610.13258v1)|null|
+|**2026-10-08**|**The Fast & Fourier: Using neural operators to speed up radiative modeling of protoplanetary disks**|Lukas Welzel et.al.|[2610.12632v1](http://arxiv.org/abs/2610.12632v1)|null|
 |**2026-10-06**|**Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion**|Luke Bhan et.al.|[2610.08764v1](http://arxiv.org/abs/2610.08764v1)|null|
 |**2026-10-01**|**GeoFWI3D: Large-scale 3D Velocity Model Dataset for Deep Learning-assisted Seismic Imaging**|Sujith Swaminadhan et.al.|[2610.01033v1](http://arxiv.org/abs/2610.01033v1)|null|
 |**2026-09-29**|**CANTO: CAD-Native Transformer Operators for AI-Aided Engineering**|Daniel Leibovici et.al.|[2609.36806v2](http://arxiv.org/abs/2609.36806v2)|null|
@@ -138,6 +141,3 @@
 |**2026-09-26**|**Derivative-Informed Training of Neural Operators On-the-Fly via Sketched Tangent Consistency**|Xinhan Yang et.al.|[2609.32797v1](http://arxiv.org/abs/2609.32797v1)|null|
 |**2026-09-25**|**A Vehicle-Integrated Approach to Digital Twin Deployment for Bridges**|Mehri Alamdari et.al.|[2609.30671v1](http://arxiv.org/abs/2609.30671v1)|null|
 |**2026-09-17**|**PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers**|Jiachen Yao et.al.|[2609.20794v1](http://arxiv.org/abs/2609.20794v1)|null|
-|**2026-09-10**|**Toward Interpretable Multimodal Fusion: Heat Conduction Modeling for Hyperspectral and LiDAR Joint Classification**|Kan Wei et.al.|[2609.11040v1](http://arxiv.org/abs/2609.11040v1)|null|
-|**2026-09-04**|**Solution-space heterogeneity shapes federated learning dynamics across partial differential equations**|Ping Luo et.al.|[2609.05012v1](http://arxiv.org/abs/2609.05012v1)|null|
-|**2026-08-30**|**Sensitivity-Constrained Neural Operators for Data-Efficient Forward and Inverse Modeling of Partial Differential Equation Systems**|Abdolmehdi Behroozi et.al.|[2608.29888v1](http://arxiv.org/abs/2608.29888v1)|null|
