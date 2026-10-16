@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-10-14 13:07:39 Asia/Shanghai
+ Automated deployment @ 2026-10-16 12:46:02 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -8,7 +8,7 @@
 ### Dust Aerosols
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
-|**2026-10-13**|**3D Global Climate Simulations of Synthetic Mars Warming**|Tom N. Landefeld et.al.|[2610.18114v1](http://arxiv.org/abs/2610.18114v1)|null|
+|**2026-10-13**|**3D Global Climate Simulations of Synthetic Mars Warming**|Tom N. Landefeld et.al.|[2610.18114v2](http://arxiv.org/abs/2610.18114v2)|null|
 |**2026-10-12**|**Extinction by non-spherical particles with the Nanoparticle Transition Matrix Code: perspectives for interstellar medium and exoplanetary atmospheres**|G. La Mura et.al.|[2610.17081v1](http://arxiv.org/abs/2610.17081v1)|null|
 |**2026-09-28**|**Surveying exogenous species in Saturn with ALMA. II. Detecting and Mapping HCN**|T. Fouchet et.al.|[2609.34943v1](http://arxiv.org/abs/2609.34943v1)|null|
 |**2026-09-08**|**Interplanetary Dust Ablation Seeds Silicate Clouds in Exoplanet Atmospheres**|Sven Kiefer et.al.|[2609.08960v1](http://arxiv.org/abs/2609.08960v1)|null|
@@ -22,6 +22,7 @@
 ### Aerosol Optical Properties
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-13**|**Collaborative Neural Networks significantly Improve Global Aerosol Retrievals From Multi-Angle Polarimeters**|Guangliang Fu et.al.|[2610.19217v1](http://arxiv.org/abs/2610.19217v1)|null|
 |**2026-10-12**|**Extinction by non-spherical particles with the Nanoparticle Transition Matrix Code: perspectives for interstellar medium and exoplanetary atmospheres**|G. La Mura et.al.|[2610.17081v1](http://arxiv.org/abs/2610.17081v1)|null|
 |**2026-09-10**|**Steepening Optical Slopes in Exoplanet Transmission Spectra with Charged Hazes**|Masayuki Inai et.al.|[2609.12240v1](http://arxiv.org/abs/2609.12240v1)|null|
 |**2026-08-06**|**Atmospheric Light Pollution by Proposed Reflect Orbital Space Mirrors**|Miroslav Kocifaj et.al.|[2608.06433v2](http://arxiv.org/abs/2608.06433v2)|null|
@@ -31,7 +32,6 @@
 |**2026-05-28**|**Optical transmission spectrum of HAT-P-47b: evidence for aerosols and tentative TiO absorption**|Wan-Hao Wang et.al.|[2605.29445v1](http://arxiv.org/abs/2605.29445v1)|null|
 |**2026-04-08**|**Recognition of Nanoparticle and Microdroplet Parameters in Levitating Microdroplets of Suspension by Speckle Image Analysis Using Convolutional Neural Networks**|Yaroslav Shopa et.al.|[2604.06935v2](http://arxiv.org/abs/2604.06935v2)|null|
 |**2026-04-06**|**Super-Solar Metallicity and Tentative Evidence for Photochemistry on WASP-96b from JWST and Ground-Based VLT Transmission Spectroscopy**|Michael Radica et.al.|[2604.05049v1](http://arxiv.org/abs/2604.05049v1)|null|
-|**2026-03-11**|**6ABOS: An Open-Source Atmospheric Correction Framework for the EnMAP Hyperspectral Mission Based on 6S**|Gabriel Caballero Cañas et.al.|[2603.10856v1](http://arxiv.org/abs/2603.10856v1)|null|
 
 ## Lidar Remote Sensing
 
@@ -75,6 +75,7 @@
 ### Machine Learning for Aerosol Retrieval
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-13**|**Collaborative Neural Networks significantly Improve Global Aerosol Retrievals From Multi-Angle Polarimeters**|Guangliang Fu et.al.|[2610.19217v1](http://arxiv.org/abs/2610.19217v1)|null|
 |**2026-07-18**|**C3DIR: A Deep Learning 3-Dimensional Cloud Property Retrieval Scheme for Passive Satellite Imagers**|Charles H. White et.al.|[2607.16929v1](http://arxiv.org/abs/2607.16929v1)|null|
 |**2026-05-26**|**Explainable Comparison of Feature-Based and Deep Learning Models for TROPOMI Methane Plume Screening**|Solomiia Kurchaba et.al.|[2605.27236v1](http://arxiv.org/abs/2605.27236v1)|null|
 |**2026-05-19**|**Physics-Informed Graph Neural Network Surrogates for Turbulent Nanoparticle Dispersion in Dental Clinical Environments**|Takshak Shende et.al.|[2605.19589v1](http://arxiv.org/abs/2605.19589v1)|null|
@@ -84,7 +85,6 @@
 |**2025-04-26**|**A Next-Generation Exoplanet Atmospheric Retrieval Framework for Transmission Spectroscopy (NEXOTRANS): Comparative Characterization for WASP-39 b Using JWST NIRISS, NIRSpec PRISM, and MIRI Observations**|Tonmoy Deka et.al.|[2504.18815v2](http://arxiv.org/abs/2504.18815v2)|null|
 |**2025-01-05**|**LWFNet: Coherent Doppler Wind Lidar-Based Network for Wind Field Retrieval**|Ran Tao et.al.|[2501.02613v1](http://arxiv.org/abs/2501.02613v1)|null|
 |**2024-11-26**|**SatVision-TOA: A Geospatial Foundation Model for Coarse-Resolution All-Sky Remote Sensing Imagery**|Caleb S. Spradlin et.al.|[2411.17000v1](http://arxiv.org/abs/2411.17000v1)|null|
-|**2024-09-10**|**Stratospheric aerosol source inversion: Noise, variability, and uncertainty quantification**|J. Hart et.al.|[2409.06846v1](http://arxiv.org/abs/2409.06846v1)|null|
 
 ### Satellite Aerosol Retrieval
 |Publish Date|Title|Authors|PDF|Code|
@@ -103,16 +103,16 @@
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-15**|**Same Target, Different Origins: Aligning Latent Rollout for Consistent PDE Emulation**|Xinying Li et.al.|[2610.21370v1](http://arxiv.org/abs/2610.21370v1)|null|
+|**2026-10-15**|**Learning and Forecasting Multiscale Spatiotemporal Epidemic Dynamics with Lagrangian-Eulerian Graph Neural ODEs**|Jinyi Duan et.al.|[2610.21223v1](http://arxiv.org/abs/2610.21223v1)|null|
+|**2026-10-14**|**HRTF Upsampling and Personalization via Neural Operators**|Meenakshi Krishnan et.al.|[2610.20400v1](http://arxiv.org/abs/2610.20400v1)|null|
+|**2026-10-14**|**ReAl: Refine neural operators via aligning dynamical flow**|Jing Xu et.al.|[2610.20369v1](http://arxiv.org/abs/2610.20369v1)|null|
+|**2026-10-14**|**Fractional is Better: Learnable Derivative Orders in Neural Operator Learning**|Fares B. Mehouachi et.al.|[2610.20363v1](http://arxiv.org/abs/2610.20363v1)|null|
+|**2026-10-14**|**A Bregman Proximal Viewpoint on Neural Operators**|Abdel-Rahim Mezidi et.al.|[2610.20120v1](http://arxiv.org/abs/2610.20120v1)|null|
+|**2026-10-14**|**Digital Self-Interference Cancellation for In-Band Full-Duplex Systems Based on Transformer Neural Operators**|Zhijie Su et.al.|[2610.19490v1](http://arxiv.org/abs/2610.19490v1)|null|
+|**2026-10-13**|**Global-in-time Spectral Duhamel-Picard Method for Post-Exposure Bake Simulation and Physics-Informed Neural Operators for EUV Lithography**|Doyun Kim et.al.|[2610.20655v1](http://arxiv.org/abs/2610.20655v1)|null|
 |**2026-10-13**|**Physics-Informed Deep Learning in Oncology**|Scindhiya Laxmi et.al.|[2610.18682v1](http://arxiv.org/abs/2610.18682v1)|null|
-|**2026-10-13**|**Operator Surrogates**|Christoph Schwab et.al.|[2610.18210v1](http://arxiv.org/abs/2610.18210v1)|null|
-|**2026-10-13**|**High-fidelity Three-Dimensional Flow Field Reconstruction Driven by Turbulent Fluid Dynamics**|Hanlin Kong et.al.|[2610.18045v1](http://arxiv.org/abs/2610.18045v1)|null|
-|**2026-10-12**|**SPLICE: Sparse Physics Library Identification and Compositional Expansion**|Lucas Thil et.al.|[2610.17029v1](http://arxiv.org/abs/2610.17029v1)|null|
-|**2026-10-12**|**A physics-coupled graph neural operator for mid-plane six-component stress tensor field prediction in concrete penetration**|Wenpu Du et.al.|[2610.16996v1](http://arxiv.org/abs/2610.16996v1)|null|
-|**2026-10-12**|**Sampling from Neural Operator Priors to Solve Partial Differential Equations**|Andrew Millard et.al.|[2610.16396v1](http://arxiv.org/abs/2610.16396v1)|null|
-|**2026-10-12**|**From Simulated Fluids to Living Tissue: Zero-Shot Foundation Model Transfer to Perturbed Embryos**|Louisa Cornelis et.al.|[2610.16236v1](http://arxiv.org/abs/2610.16236v1)|null|
-|**2026-10-12**|**CLNO: Conservative Local Neural Operator for Compressible Flow Prediction**|Buxuan Wang et.al.|[2610.16040v1](http://arxiv.org/abs/2610.16040v1)|null|
-|**2026-10-11**|**Learned Graph Bases for Neural Operators on Power-System Transients**|Shubhan Bhattacharya et.al.|[2610.15651v1](http://arxiv.org/abs/2610.15651v1)|null|
-|**2026-10-11**|**Full Waveform Inversion with a Learned Preconditioner**|Jeongjin Park et.al.|[2610.15331v1](http://arxiv.org/abs/2610.15331v1)|null|
+|**2026-10-13**|**Wong--Zakai Convergence and FNO Learning for Stochastic Volterra Equations**|Wonjae Lee et.al.|[2610.18939v1](http://arxiv.org/abs/2610.18939v1)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
@@ -131,6 +131,7 @@
 ### Neural Operators for Aerosol and Lidar
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-14**|**A Bregman Proximal Viewpoint on Neural Operators**|Abdel-Rahim Mezidi et.al.|[2610.20120v1](http://arxiv.org/abs/2610.20120v1)|null|
 |**2026-10-12**|**Sampling from Neural Operator Priors to Solve Partial Differential Equations**|Andrew Millard et.al.|[2610.16396v1](http://arxiv.org/abs/2610.16396v1)|null|
 |**2026-10-11**|**Full Waveform Inversion with a Learned Preconditioner**|Jeongjin Park et.al.|[2610.15331v1](http://arxiv.org/abs/2610.15331v1)|null|
 |**2026-10-09**|**SBNO : Schrödinger Bridge Neural Operator for the Forward and Inverse Problems under Missing Information**|Jaehyeon Park et.al.|[2610.13317v1](http://arxiv.org/abs/2610.13317v1)|null|
@@ -140,4 +141,3 @@
 |**2026-10-01**|**GeoFWI3D: Large-scale 3D Velocity Model Dataset for Deep Learning-assisted Seismic Imaging**|Sujith Swaminadhan et.al.|[2610.01033v1](http://arxiv.org/abs/2610.01033v1)|null|
 |**2026-09-29**|**CANTO: CAD-Native Transformer Operators for AI-Aided Engineering**|Daniel Leibovici et.al.|[2609.36806v2](http://arxiv.org/abs/2609.36806v2)|null|
 |**2026-09-29**|**SCOPE: Observation-Conditioned Full-Target Prediction for Sparse PDE Inference**|Ruichen Xu et.al.|[2609.36527v3](http://arxiv.org/abs/2609.36527v3)|null|
-|**2026-09-26**|**Derivative-Informed Training of Neural Operators On-the-Fly via Sketched Tangent Consistency**|Xinhan Yang et.al.|[2609.32797v1](http://arxiv.org/abs/2609.32797v1)|null|
