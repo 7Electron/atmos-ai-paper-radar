@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-10-16 12:46:02 Asia/Shanghai
+ Automated deployment @ 2026-10-19 12:58:41 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -75,6 +75,7 @@
 ### Machine Learning for Aerosol Retrieval
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-15**|**Atmospheric Chemistry-Climate Modeling with an AI Foundation Model**|James Weber et.al.|[2610.22555v1](http://arxiv.org/abs/2610.22555v1)|null|
 |**2026-10-13**|**Collaborative Neural Networks significantly Improve Global Aerosol Retrievals From Multi-Angle Polarimeters**|Guangliang Fu et.al.|[2610.19217v1](http://arxiv.org/abs/2610.19217v1)|null|
 |**2026-07-18**|**C3DIR: A Deep Learning 3-Dimensional Cloud Property Retrieval Scheme for Passive Satellite Imagers**|Charles H. White et.al.|[2607.16929v1](http://arxiv.org/abs/2607.16929v1)|null|
 |**2026-05-26**|**Explainable Comparison of Feature-Based and Deep Learning Models for TROPOMI Methane Plume Screening**|Solomiia Kurchaba et.al.|[2605.27236v1](http://arxiv.org/abs/2605.27236v1)|null|
@@ -84,11 +85,11 @@
 |**2025-10-31**|**A Next-Generation Exoplanet Atmospheric Retrieval Framework NEXOTRANS for Emission Spectroscopy: New Constraints and Atmospheric Characterization of WASP-69b Using JWST NIRCam and MIRI Observations**|Tonmoy Deka et.al.|[2510.27223v1](http://arxiv.org/abs/2510.27223v1)|null|
 |**2025-04-26**|**A Next-Generation Exoplanet Atmospheric Retrieval Framework for Transmission Spectroscopy (NEXOTRANS): Comparative Characterization for WASP-39 b Using JWST NIRISS, NIRSpec PRISM, and MIRI Observations**|Tonmoy Deka et.al.|[2504.18815v2](http://arxiv.org/abs/2504.18815v2)|null|
 |**2025-01-05**|**LWFNet: Coherent Doppler Wind Lidar-Based Network for Wind Field Retrieval**|Ran Tao et.al.|[2501.02613v1](http://arxiv.org/abs/2501.02613v1)|null|
-|**2024-11-26**|**SatVision-TOA: A Geospatial Foundation Model for Coarse-Resolution All-Sky Remote Sensing Imagery**|Caleb S. Spradlin et.al.|[2411.17000v1](http://arxiv.org/abs/2411.17000v1)|null|
 
 ### Satellite Aerosol Retrieval
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-15**|**Atmospheric Chemistry-Climate Modeling with an AI Foundation Model**|James Weber et.al.|[2610.22555v1](http://arxiv.org/abs/2610.22555v1)|null|
 |**2026-09-22**|**MLS and CALIPSO Evidence for a Warm-Pool Transition in Tropical Convective Moistening and Cloud Ice**|Isabel Nucera et.al.|[2610.03742v1](http://arxiv.org/abs/2610.03742v1)|null|
 |**2026-09-16**|**How Much Hyperspectral Information Does Chlorophyll Retrieval Really Need?**|Abed Hammoud et.al.|[2609.18531v1](http://arxiv.org/abs/2609.18531v1)|null|
 |**2026-07-18**|**C3DIR: A Deep Learning 3-Dimensional Cloud Property Retrieval Scheme for Passive Satellite Imagers**|Charles H. White et.al.|[2607.16929v1](http://arxiv.org/abs/2607.16929v1)|null|
@@ -98,21 +99,20 @@
 |**2026-03-11**|**6ABOS: An Open-Source Atmospheric Correction Framework for the EnMAP Hyperspectral Mission Based on 6S**|Gabriel Caballero Cañas et.al.|[2603.10856v1](http://arxiv.org/abs/2603.10856v1)|null|
 |**2025-11-09**|**Bayesian spatio-temporal disaggregation modeling using a diffusion-SPDE approach: a case study of Aerosol Optical Depth in India**|Fernando Rodriguez Avellaneda et.al.|[2511.06276v1](http://arxiv.org/abs/2511.06276v1)|null|
 |**2025-07-24**|**NASA Exoplanet Exploration Program (ExEP) Science Gap List**|Karl Stapelfeldt et.al.|[2507.18665v3](http://arxiv.org/abs/2507.18665v3)|null|
-|**2024-11-26**|**SatVision-TOA: A Geospatial Foundation Model for Coarse-Resolution All-Sky Remote Sensing Imagery**|Caleb S. Spradlin et.al.|[2411.17000v1](http://arxiv.org/abs/2411.17000v1)|null|
 
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-16**|**Localizing and quantifying cerebral arterial stenosis from sparse velocity waveforms using a conditional neural operator**|Tong Zhu et.al.|[2610.23774v1](http://arxiv.org/abs/2610.23774v1)|null|
+|**2026-10-16**|**Operators Reveal Scale-Dependent Limits on Recovering Greenland Ice Loss from Sea Level Fingerprints**|Xiyuan Bao et.al.|[2610.23748v1](http://arxiv.org/abs/2610.23748v1)|null|
+|**2026-10-16**|**Distributed Performance Boosting through Neural Control for Plug-and-Play Networks**|Danilo Saccani et.al.|[2610.23292v1](http://arxiv.org/abs/2610.23292v1)|null|
+|**2026-10-15**|**Spectral Limits of Polynomial Graph Filters on the Long-Range Ising Model Benchmark**|Amin Najafgholizadeh et.al.|[2610.22713v1](http://arxiv.org/abs/2610.22713v1)|null|
+|**2026-10-15**|**Learnable Splines for Unstructured Neural Operators**|Vignesh Gopakumar et.al.|[2610.22446v1](http://arxiv.org/abs/2610.22446v1)|null|
+|**2026-10-15**|**An Adaptive-Horizon Graph Neural Operator for coupled surrogate morphodynamic modelling**|Ying Cao et.al.|[2610.22432v1](http://arxiv.org/abs/2610.22432v1)|null|
 |**2026-10-15**|**Same Target, Different Origins: Aligning Latent Rollout for Consistent PDE Emulation**|Xinying Li et.al.|[2610.21370v1](http://arxiv.org/abs/2610.21370v1)|null|
 |**2026-10-15**|**Learning and Forecasting Multiscale Spatiotemporal Epidemic Dynamics with Lagrangian-Eulerian Graph Neural ODEs**|Jinyi Duan et.al.|[2610.21223v1](http://arxiv.org/abs/2610.21223v1)|null|
 |**2026-10-14**|**HRTF Upsampling and Personalization via Neural Operators**|Meenakshi Krishnan et.al.|[2610.20400v1](http://arxiv.org/abs/2610.20400v1)|null|
 |**2026-10-14**|**ReAl: Refine neural operators via aligning dynamical flow**|Jing Xu et.al.|[2610.20369v1](http://arxiv.org/abs/2610.20369v1)|null|
-|**2026-10-14**|**Fractional is Better: Learnable Derivative Orders in Neural Operator Learning**|Fares B. Mehouachi et.al.|[2610.20363v1](http://arxiv.org/abs/2610.20363v1)|null|
-|**2026-10-14**|**A Bregman Proximal Viewpoint on Neural Operators**|Abdel-Rahim Mezidi et.al.|[2610.20120v1](http://arxiv.org/abs/2610.20120v1)|null|
-|**2026-10-14**|**Digital Self-Interference Cancellation for In-Band Full-Duplex Systems Based on Transformer Neural Operators**|Zhijie Su et.al.|[2610.19490v1](http://arxiv.org/abs/2610.19490v1)|null|
-|**2026-10-13**|**Global-in-time Spectral Duhamel-Picard Method for Post-Exposure Bake Simulation and Physics-Informed Neural Operators for EUV Lithography**|Doyun Kim et.al.|[2610.20655v1](http://arxiv.org/abs/2610.20655v1)|null|
-|**2026-10-13**|**Physics-Informed Deep Learning in Oncology**|Scindhiya Laxmi et.al.|[2610.18682v1](http://arxiv.org/abs/2610.18682v1)|null|
-|**2026-10-13**|**Wong--Zakai Convergence and FNO Learning for Stochastic Volterra Equations**|Wonjae Lee et.al.|[2610.18939v1](http://arxiv.org/abs/2610.18939v1)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
@@ -131,6 +131,8 @@
 ### Neural Operators for Aerosol and Lidar
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-16**|**Localizing and quantifying cerebral arterial stenosis from sparse velocity waveforms using a conditional neural operator**|Tong Zhu et.al.|[2610.23774v1](http://arxiv.org/abs/2610.23774v1)|null|
+|**2026-10-16**|**Operators Reveal Scale-Dependent Limits on Recovering Greenland Ice Loss from Sea Level Fingerprints**|Xiyuan Bao et.al.|[2610.23748v1](http://arxiv.org/abs/2610.23748v1)|null|
 |**2026-10-14**|**A Bregman Proximal Viewpoint on Neural Operators**|Abdel-Rahim Mezidi et.al.|[2610.20120v1](http://arxiv.org/abs/2610.20120v1)|null|
 |**2026-10-12**|**Sampling from Neural Operator Priors to Solve Partial Differential Equations**|Andrew Millard et.al.|[2610.16396v1](http://arxiv.org/abs/2610.16396v1)|null|
 |**2026-10-11**|**Full Waveform Inversion with a Learned Preconditioner**|Jeongjin Park et.al.|[2610.15331v1](http://arxiv.org/abs/2610.15331v1)|null|
@@ -139,5 +141,3 @@
 |**2026-10-08**|**The Fast & Fourier: Using neural operators to speed up radiative modeling of protoplanetary disks**|Lukas Welzel et.al.|[2610.12632v1](http://arxiv.org/abs/2610.12632v1)|null|
 |**2026-10-06**|**Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion**|Luke Bhan et.al.|[2610.08764v1](http://arxiv.org/abs/2610.08764v1)|null|
 |**2026-10-01**|**GeoFWI3D: Large-scale 3D Velocity Model Dataset for Deep Learning-assisted Seismic Imaging**|Sujith Swaminadhan et.al.|[2610.01033v1](http://arxiv.org/abs/2610.01033v1)|null|
-|**2026-09-29**|**CANTO: CAD-Native Transformer Operators for AI-Aided Engineering**|Daniel Leibovici et.al.|[2609.36806v2](http://arxiv.org/abs/2609.36806v2)|null|
-|**2026-09-29**|**SCOPE: Observation-Conditioned Full-Target Prediction for Sparse PDE Inference**|Ruichen Xu et.al.|[2609.36527v3](http://arxiv.org/abs/2609.36527v3)|null|
