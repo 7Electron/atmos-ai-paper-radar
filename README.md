@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-10-19 12:58:41 Asia/Shanghai
+ Automated deployment @ 2026-10-20 13:03:46 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -8,7 +8,7 @@
 ### Dust Aerosols
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
-|**2026-10-13**|**3D Global Climate Simulations of Synthetic Mars Warming**|Tom N. Landefeld et.al.|[2610.18114v2](http://arxiv.org/abs/2610.18114v2)|null|
+|**2026-10-13**|**3D Global Climate Simulations of Synthetic Mars Warming**|Tom N. Landefeld et.al.|[2610.18114v3](http://arxiv.org/abs/2610.18114v3)|null|
 |**2026-10-12**|**Extinction by non-spherical particles with the Nanoparticle Transition Matrix Code: perspectives for interstellar medium and exoplanetary atmospheres**|G. La Mura et.al.|[2610.17081v1](http://arxiv.org/abs/2610.17081v1)|null|
 |**2026-09-28**|**Surveying exogenous species in Saturn with ALMA. II. Detecting and Mapping HCN**|T. Fouchet et.al.|[2609.34943v1](http://arxiv.org/abs/2609.34943v1)|null|
 |**2026-09-08**|**Interplanetary Dust Ablation Seeds Silicate Clouds in Exoplanet Atmospheres**|Sven Kiefer et.al.|[2609.08960v1](http://arxiv.org/abs/2609.08960v1)|null|
@@ -103,20 +103,21 @@
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-19**|**A Probabilistic, Rotation-Preserving Kernel Operator Surrogate for Continuum-Robot Design Spaces**|Branden Frieden et.al.|[2610.26605v1](http://arxiv.org/abs/2610.26605v1)|null|
+|**2026-10-19**|**UnO-NeSy: Optimizing Neuro-Symbolic Computing with Unified FeFET Based In-Memory System**|Yifei Zhou et.al.|[2610.26530v1](http://arxiv.org/abs/2610.26530v1)|null|
+|**2026-10-19**|**CIS-Transolver: A Cross-Layer Incremental-State Neural Operator for Fine-Scale Automotive Aerodynamic Flow Prediction**|Jianglong Liu et.al.|[2610.26337v1](http://arxiv.org/abs/2610.26337v1)|null|
+|**2026-10-18**|**Self-Supervised In-Context Operator Learning for Optimal Mixing in Incompressible Flows**|Weiwei Hu et.al.|[2610.25556v1](http://arxiv.org/abs/2610.25556v1)|null|
+|**2026-10-17**|**Spherical Physics-informed Neural Operator with Multi-scale Coupling for Meteorological Downscaling**|Yiqiang Ye et.al.|[2610.24708v1](http://arxiv.org/abs/2610.24708v1)|null|
+|**2026-10-17**|**Reconstruction of Unobserved Core Electron Density in Tokamak Plasmas with a Neural Operator Transport Surrogate and Uncertainty Quantification**|D. Sorokin et.al.|[2610.24525v1](http://arxiv.org/abs/2610.24525v1)|null|
+|**2026-10-17**|**The Segal-Bargmann Transform in Neural Partial Differential Equations**|Jie Xu et.al.|[2610.24497v1](http://arxiv.org/abs/2610.24497v1)|null|
+|**2026-10-17**|**Spatons: Spatiotonally Localized Building Blocks for Efficient XR Predistortion**|Mohammadjavad Maheronnaghsh et.al.|[2610.24400v1](http://arxiv.org/abs/2610.24400v1)|null|
+|**2026-10-16**|**Constructive Universal Approximation by Infinite-Dimensional Neural Networks via Gaussian-Weighted Ridgelet Transform**|Sho Sonoda et.al.|[2610.24293v1](http://arxiv.org/abs/2610.24293v1)|null|
 |**2026-10-16**|**Localizing and quantifying cerebral arterial stenosis from sparse velocity waveforms using a conditional neural operator**|Tong Zhu et.al.|[2610.23774v1](http://arxiv.org/abs/2610.23774v1)|null|
-|**2026-10-16**|**Operators Reveal Scale-Dependent Limits on Recovering Greenland Ice Loss from Sea Level Fingerprints**|Xiyuan Bao et.al.|[2610.23748v1](http://arxiv.org/abs/2610.23748v1)|null|
-|**2026-10-16**|**Distributed Performance Boosting through Neural Control for Plug-and-Play Networks**|Danilo Saccani et.al.|[2610.23292v1](http://arxiv.org/abs/2610.23292v1)|null|
-|**2026-10-15**|**Spectral Limits of Polynomial Graph Filters on the Long-Range Ising Model Benchmark**|Amin Najafgholizadeh et.al.|[2610.22713v1](http://arxiv.org/abs/2610.22713v1)|null|
-|**2026-10-15**|**Learnable Splines for Unstructured Neural Operators**|Vignesh Gopakumar et.al.|[2610.22446v1](http://arxiv.org/abs/2610.22446v1)|null|
-|**2026-10-15**|**An Adaptive-Horizon Graph Neural Operator for coupled surrogate morphodynamic modelling**|Ying Cao et.al.|[2610.22432v1](http://arxiv.org/abs/2610.22432v1)|null|
-|**2026-10-15**|**Same Target, Different Origins: Aligning Latent Rollout for Consistent PDE Emulation**|Xinying Li et.al.|[2610.21370v1](http://arxiv.org/abs/2610.21370v1)|null|
-|**2026-10-15**|**Learning and Forecasting Multiscale Spatiotemporal Epidemic Dynamics with Lagrangian-Eulerian Graph Neural ODEs**|Jinyi Duan et.al.|[2610.21223v1](http://arxiv.org/abs/2610.21223v1)|null|
-|**2026-10-14**|**HRTF Upsampling and Personalization via Neural Operators**|Meenakshi Krishnan et.al.|[2610.20400v1](http://arxiv.org/abs/2610.20400v1)|null|
-|**2026-10-14**|**ReAl: Refine neural operators via aligning dynamical flow**|Jing Xu et.al.|[2610.20369v1](http://arxiv.org/abs/2610.20369v1)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-17**|**Spherical Physics-informed Neural Operator with Multi-scale Coupling for Meteorological Downscaling**|Yiqiang Ye et.al.|[2610.24708v1](http://arxiv.org/abs/2610.24708v1)|null|
 |**2026-10-13**|**High-fidelity Three-Dimensional Flow Field Reconstruction Driven by Turbulent Fluid Dynamics**|Hanlin Kong et.al.|[2610.18045v1](http://arxiv.org/abs/2610.18045v1)|null|
 |**2026-09-28**|**CasEm: A Cascade Architecture for Long-Horizon Neural Emulation**|Zhaoyi Li et.al.|[2609.34246v1](http://arxiv.org/abs/2609.34246v1)|null|
 |**2026-09-26**|**Generalizable Neural Downscaling of Earth System Model Wind Fields via Continuous Dynamics Modeling**|Chenxi Yu et.al.|[2610.03757v1](http://arxiv.org/abs/2610.03757v1)|null|
@@ -126,13 +127,12 @@
 |**2026-08-21**|**A Fourier Neural Operator for Accelerated Discretization-Invariant Solutions of the Radiative Transfer Equation**|Daniel Carne et.al.|[2608.21173v1](http://arxiv.org/abs/2608.21173v1)|null|
 |**2026-07-30**|**Orca: Neural Operators for Causal Reasoning in Continuous Time**|Gerrit Großmann et.al.|[2607.27867v1](http://arxiv.org/abs/2607.27867v1)|null|
 |**2026-07-28**|**A Physics-Informed Neural Operator for Thermal Ranking of Low-Cost Wall Materials in Hot-Dry Climates**|Muhammad Akbar Khan et.al.|[2607.25668v1](http://arxiv.org/abs/2607.25668v1)|null|
-|**2026-07-24**|**Anomalous Diffusion of Tropical Cyclones Observed in Huge Ensembles of Hindcasts**|Abdoul R. Zeba et.al.|[2607.21954v1](http://arxiv.org/abs/2607.21954v1)|null|
 
 ### Neural Operators for Aerosol and Lidar
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
 |**2026-10-16**|**Localizing and quantifying cerebral arterial stenosis from sparse velocity waveforms using a conditional neural operator**|Tong Zhu et.al.|[2610.23774v1](http://arxiv.org/abs/2610.23774v1)|null|
-|**2026-10-16**|**Operators Reveal Scale-Dependent Limits on Recovering Greenland Ice Loss from Sea Level Fingerprints**|Xiyuan Bao et.al.|[2610.23748v1](http://arxiv.org/abs/2610.23748v1)|null|
+|**2026-10-16**|**Neural Operators Reveal Scale-Dependent Limits on Recovering Greenland Ice Loss from Sea Level Fingerprints**|Xiyuan Bao et.al.|[2610.23748v1](http://arxiv.org/abs/2610.23748v1)|null|
 |**2026-10-14**|**A Bregman Proximal Viewpoint on Neural Operators**|Abdel-Rahim Mezidi et.al.|[2610.20120v1](http://arxiv.org/abs/2610.20120v1)|null|
 |**2026-10-12**|**Sampling from Neural Operator Priors to Solve Partial Differential Equations**|Andrew Millard et.al.|[2610.16396v1](http://arxiv.org/abs/2610.16396v1)|null|
 |**2026-10-11**|**Full Waveform Inversion with a Learned Preconditioner**|Jeongjin Park et.al.|[2610.15331v1](http://arxiv.org/abs/2610.15331v1)|null|
