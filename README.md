@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-10-20 13:03:46 Asia/Shanghai
+ Automated deployment @ 2026-10-21 13:04:46 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -103,6 +103,8 @@
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-20**|**Planning under Noise with Neural Operators**|Michael Chen et.al.|[2610.28623v1](http://arxiv.org/abs/2610.28623v1)|null|
+|**2026-10-20**|**Neural Operator Splitting for Fluid Dynamics in Complex Geometry**|Jianxiang Li et.al.|[2610.27671v1](http://arxiv.org/abs/2610.27671v1)|null|
 |**2026-10-19**|**A Probabilistic, Rotation-Preserving Kernel Operator Surrogate for Continuum-Robot Design Spaces**|Branden Frieden et.al.|[2610.26605v1](http://arxiv.org/abs/2610.26605v1)|null|
 |**2026-10-19**|**UnO-NeSy: Optimizing Neuro-Symbolic Computing with Unified FeFET Based In-Memory System**|Yifei Zhou et.al.|[2610.26530v1](http://arxiv.org/abs/2610.26530v1)|null|
 |**2026-10-19**|**CIS-Transolver: A Cross-Layer Incremental-State Neural Operator for Fine-Scale Automotive Aerodynamic Flow Prediction**|Jianglong Liu et.al.|[2610.26337v1](http://arxiv.org/abs/2610.26337v1)|null|
@@ -111,8 +113,6 @@
 |**2026-10-17**|**Reconstruction of Unobserved Core Electron Density in Tokamak Plasmas with a Neural Operator Transport Surrogate and Uncertainty Quantification**|D. Sorokin et.al.|[2610.24525v1](http://arxiv.org/abs/2610.24525v1)|null|
 |**2026-10-17**|**The Segal-Bargmann Transform in Neural Partial Differential Equations**|Jie Xu et.al.|[2610.24497v1](http://arxiv.org/abs/2610.24497v1)|null|
 |**2026-10-17**|**Spatons: Spatiotonally Localized Building Blocks for Efficient XR Predistortion**|Mohammadjavad Maheronnaghsh et.al.|[2610.24400v1](http://arxiv.org/abs/2610.24400v1)|null|
-|**2026-10-16**|**Constructive Universal Approximation by Infinite-Dimensional Neural Networks via Gaussian-Weighted Ridgelet Transform**|Sho Sonoda et.al.|[2610.24293v1](http://arxiv.org/abs/2610.24293v1)|null|
-|**2026-10-16**|**Localizing and quantifying cerebral arterial stenosis from sparse velocity waveforms using a conditional neural operator**|Tong Zhu et.al.|[2610.23774v1](http://arxiv.org/abs/2610.23774v1)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
