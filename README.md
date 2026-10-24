@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-10-22 13:06:52 Asia/Shanghai
+ Automated deployment @ 2026-10-24 12:50:43 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -103,6 +103,9 @@
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-22**|**RheOPT: Few-Shot Non-Newtonian Flow Prediction via Newtonian Pretraining of RheOFormer**|Maedeh Saberi et.al.|[2610.31465v1](http://arxiv.org/abs/2610.31465v1)|null|
+|**2026-10-22**|**Conditional Mean Flows for Frequency-Domain Scattered Wavefield Generation**|Lipeng Lai et.al.|[2610.31071v1](http://arxiv.org/abs/2610.31071v1)|null|
+|**2026-10-21**|**CARS: a centerline-anchored attention surrogate for coronary blood flow on skeleton-generated lumen geometries**|Reza Akbarian Bafghi et.al.|[2610.30498v1](http://arxiv.org/abs/2610.30498v1)|null|
 |**2026-10-21**|**A PDE-theory-guided neural operator and the long-time relaxation of the two-dimensional anisotropic Boussinesq system**|Akram Moustafa et.al.|[2610.29938v1](http://arxiv.org/abs/2610.29938v1)|null|
 |**2026-10-21**|**Local and Sparse Kernel Operator Learning for Incompressible Flows: An Operator Lagrange Formulation**|Ramansh Sharma et.al.|[2610.29009v1](http://arxiv.org/abs/2610.29009v1)|null|
 |**2026-10-20**|**Planning under Noise with Neural Operators**|Michael Chen et.al.|[2610.28623v2](http://arxiv.org/abs/2610.28623v2)|null|
@@ -110,9 +113,6 @@
 |**2026-10-19**|**A Probabilistic, Rotation-Preserving Kernel Operator Surrogate for Continuum-Robot Design Spaces**|Branden Frieden et.al.|[2610.26605v1](http://arxiv.org/abs/2610.26605v1)|null|
 |**2026-10-19**|**UnO-NeSy: Optimizing Neuro-Symbolic Computing with Unified FeFET Based In-Memory System**|Yifei Zhou et.al.|[2610.26530v1](http://arxiv.org/abs/2610.26530v1)|null|
 |**2026-10-19**|**CIS-Transolver: A Cross-Layer Incremental-State Neural Operator for Fine-Scale Automotive Aerodynamic Flow Prediction**|Jianglong Liu et.al.|[2610.26337v1](http://arxiv.org/abs/2610.26337v1)|null|
-|**2026-10-18**|**Self-Supervised In-Context Operator Learning for Optimal Mixing in Incompressible Flows**|Weiwei Hu et.al.|[2610.25556v1](http://arxiv.org/abs/2610.25556v1)|null|
-|**2026-10-17**|**Spherical Physics-informed Neural Operator with Multi-scale Coupling for Meteorological Downscaling**|Yiqiang Ye et.al.|[2610.24708v1](http://arxiv.org/abs/2610.24708v1)|null|
-|**2026-10-17**|**Reconstruction of Unobserved Core Electron Density in Tokamak Plasmas with a Neural Operator Transport Surrogate and Uncertainty Quantification**|D. Sorokin et.al.|[2610.24525v1](http://arxiv.org/abs/2610.24525v1)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
@@ -131,6 +131,7 @@
 ### Neural Operators for Aerosol and Lidar
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-22**|**Conditional Mean Flows for Frequency-Domain Scattered Wavefield Generation**|Lipeng Lai et.al.|[2610.31071v1](http://arxiv.org/abs/2610.31071v1)|null|
 |**2026-10-16**|**Localizing and quantifying cerebral arterial stenosis from sparse velocity waveforms using a conditional neural operator**|Tong Zhu et.al.|[2610.23774v1](http://arxiv.org/abs/2610.23774v1)|null|
 |**2026-10-16**|**Neural Operators Reveal Scale-Dependent Limits on Recovering Greenland Ice Loss from Sea Level Fingerprints**|Xiyuan Bao et.al.|[2610.23748v1](http://arxiv.org/abs/2610.23748v1)|null|
 |**2026-10-14**|**A Bregman Proximal Viewpoint on Neural Operators**|Abdel-Rahim Mezidi et.al.|[2610.20120v1](http://arxiv.org/abs/2610.20120v1)|null|
@@ -140,4 +141,3 @@
 |**2026-10-09**|**Neural Surrogate Modeling of Ultrasonic Wave Propagation in Heterogeneous Media**|Burla Nur Korkmaz et.al.|[2610.13258v1](http://arxiv.org/abs/2610.13258v1)|null|
 |**2026-10-08**|**The Fast & Fourier: Using neural operators to speed up radiative modeling of protoplanetary disks**|Lukas Welzel et.al.|[2610.12632v1](http://arxiv.org/abs/2610.12632v1)|null|
 |**2026-10-06**|**Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion**|Luke Bhan et.al.|[2610.08764v1](http://arxiv.org/abs/2610.08764v1)|null|
-|**2026-10-01**|**GeoFWI3D: Large-scale 3D Velocity Model Dataset for Deep Learning-assisted Seismic Imaging**|Sujith Swaminadhan et.al.|[2610.01033v1](http://arxiv.org/abs/2610.01033v1)|null|
