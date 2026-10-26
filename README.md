@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-10-25 13:00:22 Asia/Shanghai
+ Automated deployment @ 2026-10-26 13:04:07 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -103,6 +103,8 @@
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-23**|**ZENO: Nonlinear filtering with Zakai Equation Neural Operators**|Aaditya Prasad et.al.|[2610.32926v1](http://arxiv.org/abs/2610.32926v1)|null|
+|**2026-10-23**|**CoPiT: A conditional Position-induced Transformer for aerodynamic field prediction on unstructured meshes**|Junfeng Chen et.al.|[2610.32299v1](http://arxiv.org/abs/2610.32299v1)|null|
 |**2026-10-22**|**RheOPT: Few-Shot Non-Newtonian Flow Prediction via Newtonian Pretraining of RheOFormer**|Maedeh Saberi et.al.|[2610.31465v1](http://arxiv.org/abs/2610.31465v1)|null|
 |**2026-10-22**|**Conditional Mean Flows for Frequency-Domain Scattered Wavefield Generation**|Lipeng Lai et.al.|[2610.31071v1](http://arxiv.org/abs/2610.31071v1)|null|
 |**2026-10-21**|**CARS: a centerline-anchored attention surrogate for coronary blood flow on skeleton-generated lumen geometries**|Reza Akbarian Bafghi et.al.|[2610.30498v1](http://arxiv.org/abs/2610.30498v1)|null|
@@ -111,8 +113,6 @@
 |**2026-10-20**|**Planning under Noise with Neural Operators**|Michael Chen et.al.|[2610.28623v2](http://arxiv.org/abs/2610.28623v2)|null|
 |**2026-10-20**|**Neural Operator Splitting for Fluid Dynamics in Complex Geometry**|Jianxiang Li et.al.|[2610.27671v1](http://arxiv.org/abs/2610.27671v1)|null|
 |**2026-10-19**|**A Probabilistic, Rotation-Preserving Kernel Operator Surrogate for Continuum-Robot Design Spaces**|Branden Frieden et.al.|[2610.26605v1](http://arxiv.org/abs/2610.26605v1)|null|
-|**2026-10-19**|**UnO-NeSy: Optimizing Neuro-Symbolic Computing with Unified FeFET Based In-Memory System**|Yifei Zhou et.al.|[2610.26530v1](http://arxiv.org/abs/2610.26530v1)|null|
-|**2026-10-19**|**CIS-Transolver: A Cross-Layer Incremental-State Neural Operator for Fine-Scale Automotive Aerodynamic Flow Prediction**|Jianglong Liu et.al.|[2610.26337v1](http://arxiv.org/abs/2610.26337v1)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
