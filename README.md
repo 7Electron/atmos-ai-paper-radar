@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-10-26 13:04:07 Asia/Shanghai
+ Automated deployment @ 2026-10-27 13:20:07 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -103,20 +103,23 @@
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-26**|**Quantitative approximation theorem of neural operators for the Dirichlet-to-Neumann map**|Pu-Yun Kow et.al.|[2610.35404v1](http://arxiv.org/abs/2610.35404v1)|null|
+|**2026-10-25**|**Performance of Neural Operator Baselines on 'The Well' Dataset**|Yash Pincha et.al.|[2610.33967v1](http://arxiv.org/abs/2610.33967v1)|null|
+|**2026-10-24**|**An actively trained neural operator for near-explicit atmospheric chemistry**|Zhi-Song Liu et.al.|[2610.33771v1](http://arxiv.org/abs/2610.33771v1)|null|
+|**2026-10-24**|**Beyond Affine Reconstruction: Multi-Resolution Transformer DeepONets for the Radiative Transfer Equation**|Tanguy Azéma et.al.|[2610.33668v1](http://arxiv.org/abs/2610.33668v1)|null|
+|**2026-10-24**|**FreqPKC: Frequency-Aware PeakConv for Radar Semantic Segmentation**|Yangyong Deng et.al.|[2610.33504v1](http://arxiv.org/abs/2610.33504v1)|null|
+|**2026-10-24**|**Climate downscaling with likelihood functional flow matching**|Zhi-Song Liu et.al.|[2610.33482v1](http://arxiv.org/abs/2610.33482v1)|null|
+|**2026-10-24**|**FG-ConvNO: A Geometry-Aware Neural Operator for Propeller CFD Prediction**|Yichen Di et.al.|[2610.33456v1](http://arxiv.org/abs/2610.33456v1)|null|
 |**2026-10-23**|**ZENO: Nonlinear filtering with Zakai Equation Neural Operators**|Aaditya Prasad et.al.|[2610.32926v1](http://arxiv.org/abs/2610.32926v1)|null|
 |**2026-10-23**|**CoPiT: A conditional Position-induced Transformer for aerodynamic field prediction on unstructured meshes**|Junfeng Chen et.al.|[2610.32299v1](http://arxiv.org/abs/2610.32299v1)|null|
 |**2026-10-22**|**RheOPT: Few-Shot Non-Newtonian Flow Prediction via Newtonian Pretraining of RheOFormer**|Maedeh Saberi et.al.|[2610.31465v1](http://arxiv.org/abs/2610.31465v1)|null|
-|**2026-10-22**|**Conditional Mean Flows for Frequency-Domain Scattered Wavefield Generation**|Lipeng Lai et.al.|[2610.31071v1](http://arxiv.org/abs/2610.31071v1)|null|
-|**2026-10-21**|**CARS: a centerline-anchored attention surrogate for coronary blood flow on skeleton-generated lumen geometries**|Reza Akbarian Bafghi et.al.|[2610.30498v1](http://arxiv.org/abs/2610.30498v1)|null|
-|**2026-10-21**|**A PDE-theory-guided neural operator and the long-time relaxation of the two-dimensional anisotropic Boussinesq system**|Akram Moustafa et.al.|[2610.29938v1](http://arxiv.org/abs/2610.29938v1)|null|
-|**2026-10-21**|**Local and Sparse Kernel Operator Learning for Incompressible Flows: An Operator Lagrange Formulation**|Ramansh Sharma et.al.|[2610.29009v1](http://arxiv.org/abs/2610.29009v1)|null|
-|**2026-10-20**|**Planning under Noise with Neural Operators**|Michael Chen et.al.|[2610.28623v2](http://arxiv.org/abs/2610.28623v2)|null|
-|**2026-10-20**|**Neural Operator Splitting for Fluid Dynamics in Complex Geometry**|Jianxiang Li et.al.|[2610.27671v1](http://arxiv.org/abs/2610.27671v1)|null|
-|**2026-10-19**|**A Probabilistic, Rotation-Preserving Kernel Operator Surrogate for Continuum-Robot Design Spaces**|Branden Frieden et.al.|[2610.26605v1](http://arxiv.org/abs/2610.26605v1)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-24**|**An actively trained neural operator for near-explicit atmospheric chemistry**|Zhi-Song Liu et.al.|[2610.33771v1](http://arxiv.org/abs/2610.33771v1)|null|
+|**2026-10-24**|**FreqPKC: Frequency-Aware PeakConv for Radar Semantic Segmentation**|Yangyong Deng et.al.|[2610.33504v1](http://arxiv.org/abs/2610.33504v1)|null|
+|**2026-10-24**|**Climate downscaling with likelihood functional flow matching**|Zhi-Song Liu et.al.|[2610.33482v1](http://arxiv.org/abs/2610.33482v1)|null|
 |**2026-10-17**|**Spherical Physics-informed Neural Operator with Multi-scale Coupling for Meteorological Downscaling**|Yiqiang Ye et.al.|[2610.24708v1](http://arxiv.org/abs/2610.24708v1)|null|
 |**2026-10-13**|**High-fidelity Three-Dimensional Flow Field Reconstruction Driven by Turbulent Fluid Dynamics**|Hanlin Kong et.al.|[2610.18045v1](http://arxiv.org/abs/2610.18045v1)|null|
 |**2026-09-28**|**CasEm: A Cascade Architecture for Long-Horizon Neural Emulation**|Zhaoyi Li et.al.|[2609.34246v1](http://arxiv.org/abs/2609.34246v1)|null|
@@ -124,9 +127,6 @@
 |**2026-09-14**|**Beyond the Graph: An Adaptive Meta-Learner Fuses Explainability, Weather, and Dynamics for Robust Bus ETA Prediction**|Pratham Payra et.al.|[2609.31667v1](http://arxiv.org/abs/2609.31667v1)|null|
 |**2026-09-08**|**Neptune: An AI model for Global Ocean Subseasonal Prediction**|Davide Donno et.al.|[2609.08606v1](http://arxiv.org/abs/2609.08606v1)|null|
 |**2026-08-27**|**Dandelion: A Spherical Flower for Neural Simulation of Planetary Dynamics**|Till Muser et.al.|[2608.27521v1](http://arxiv.org/abs/2608.27521v1)|null|
-|**2026-08-21**|**A Fourier Neural Operator for Accelerated Discretization-Invariant Solutions of the Radiative Transfer Equation**|Daniel Carne et.al.|[2608.21173v1](http://arxiv.org/abs/2608.21173v1)|null|
-|**2026-07-30**|**Orca: Neural Operators for Causal Reasoning in Continuous Time**|Gerrit Großmann et.al.|[2607.27867v1](http://arxiv.org/abs/2607.27867v1)|null|
-|**2026-07-28**|**A Physics-Informed Neural Operator for Thermal Ranking of Low-Cost Wall Materials in Hot-Dry Climates**|Muhammad Akbar Khan et.al.|[2607.25668v1](http://arxiv.org/abs/2607.25668v1)|null|
 
 ### Neural Operators for Aerosol and Lidar
 |Publish Date|Title|Authors|PDF|Code|
