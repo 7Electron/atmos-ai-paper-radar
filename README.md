@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-10-29 14:05:35 Asia/Shanghai
+ Automated deployment @ 2026-10-30 14:06:34 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -103,16 +103,16 @@
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-10-29**|**NEOPIC: A Neural Operator Framework for Particle-based Kinetic Plasma Simulations**|Sriramkrishnan Muralikrishnan et.al.|[2610.40528v1](http://arxiv.org/abs/2610.40528v1)|null|
+|**2026-10-29**|**A Semigroup-Aware Kernel Neural Operator with Latent Exponential Integration for Forced PDEs**|Naseem Abbas et.al.|[2610.39845v1](http://arxiv.org/abs/2610.39845v1)|null|
+|**2026-10-29**|**Learning Kolmogorov Backward Operators for Spectral Analysis and Forecasting: A Data-Driven Variational Galerkin Framework**|Yuanchao Xu et.al.|[2610.39580v1](http://arxiv.org/abs/2610.39580v1)|null|
+|**2026-10-29**|**Linear-Stability-Guided Two-Stage Surrogate Model for Nonlinear ITG-TEM Turbulence**|Y. W. Cho et.al.|[2610.39381v1](http://arxiv.org/abs/2610.39381v1)|null|
+|**2026-10-28**|**Exponential-Nemytskii Neural Operators: Learning Field Evolution Across Step Sizes**|Jingye Li et.al.|[2610.39041v1](http://arxiv.org/abs/2610.39041v1)|null|
+|**2026-10-28**|**Agentic AI Reasoning and Learned Sampling for Task-Aware Projection Selection in Sparse-View CT: Predicting Hemodynamics**|Mahmoud Elhadidy et.al.|[2610.39003v1](http://arxiv.org/abs/2610.39003v1)|null|
+|**2026-10-28**|**Safeguarded Neurally-Accelerated Preconditioning (SNAP) framework for Nonlinear Optimization**|Youngkyu Lee et.al.|[2610.38790v1](http://arxiv.org/abs/2610.38790v1)|null|
+|**2026-10-27**|**Predicting Sparse Observables in Parameterized Unsteady Flows Using Coarse-Mesh Graph Neural Networks**|Brener Ramos et.al.|[2610.37986v1](http://arxiv.org/abs/2610.37986v1)|null|
+|**2026-10-27**|**DropFENO: A Data-Free, Physics-Based Operator-Learning Framework for Droplet Equilibria on Mixed-Wettability Patterned Surfaces**|Ganesh Sahadeo Meshram et.al.|[2610.37863v1](http://arxiv.org/abs/2610.37863v1)|null|
 |**2026-10-27**|**AMOR: Adaptive Modal Operator Refinement for Operator Learning on Arbitrary Meshes and Irregular 3D Geometries**|David Voderholzer et.al.|[2610.37485v1](http://arxiv.org/abs/2610.37485v1)|null|
-|**2026-10-27**|**Operator Barron Regularity for Elliptic Equations and Application to Neural Operator Approximation**|Shuhao Cao et.al.|[2610.37101v1](http://arxiv.org/abs/2610.37101v1)|null|
-|**2026-10-27**|**Rethinking Channel Estimation for Fluid Antenna Systems: A Physics-Informed Operator Learning**|Zixin Wang et.al.|[2610.36787v1](http://arxiv.org/abs/2610.36787v1)|null|
-|**2026-10-27**|**Learning the solution operator of standing waves with a Fourier neural operator**|Changhong Mou et.al.|[2610.36747v1](http://arxiv.org/abs/2610.36747v1)|null|
-|**2026-10-26**|**Quantitative approximation theorem of neural operators for the Dirichlet-to-Neumann map**|Pu-Yun Kow et.al.|[2610.35404v1](http://arxiv.org/abs/2610.35404v1)|null|
-|**2026-10-25**|**Performance of Neural Operator Baselines on 'The Well' Dataset**|Yash Pincha et.al.|[2610.33967v1](http://arxiv.org/abs/2610.33967v1)|null|
-|**2026-10-24**|**An actively trained neural operator for near-explicit atmospheric chemistry**|Zhi-Song Liu et.al.|[2610.33771v2](http://arxiv.org/abs/2610.33771v2)|null|
-|**2026-10-24**|**Beyond Affine Reconstruction: Multi-Resolution Transformer DeepONets for the Radiative Transfer Equation**|Tanguy Azéma et.al.|[2610.33668v1](http://arxiv.org/abs/2610.33668v1)|null|
-|**2026-10-24**|**FreqPKC: Frequency-Aware PeakConv for Radar Semantic Segmentation**|Yangyong Deng et.al.|[2610.33504v1](http://arxiv.org/abs/2610.33504v1)|null|
-|**2026-10-24**|**Climate downscaling with likelihood functional flow matching**|Zhi-Song Liu et.al.|[2610.33482v2](http://arxiv.org/abs/2610.33482v2)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
