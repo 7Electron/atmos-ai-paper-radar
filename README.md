@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-11-02 14:30:47 Asia/Shanghai
+ Automated deployment @ 2026-11-04 14:45:58 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -103,16 +103,16 @@
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
-|**2026-10-30**|**Learning Nonlocal Interactions in Large-Scale Heterogeneous Metamaterials through Scientific Machine Learning**|Dex Doksoo Lee et.al.|[2610.41887v1](http://arxiv.org/abs/2610.41887v1)|null|
-|**2026-10-29**|**NEOPIC: A Neural Operator Framework for Particle-based Kinetic Plasma Simulations**|Sriramkrishnan Muralikrishnan et.al.|[2610.40528v1](http://arxiv.org/abs/2610.40528v1)|null|
-|**2026-10-29**|**Pareto-Optimal Hypersonic Vehicle Design with Canonical-Coordinate Neural Operator Surrogates Under Ablation-Driven Shape Change and Incidence Variation**|Khemraj Shukla et.al.|[2610.40731v1](http://arxiv.org/abs/2610.40731v1)|null|
-|**2026-10-29**|**A Semigroup-Aware Kernel Neural Operator with Latent Exponential Integration for Forced PDEs**|Naseem Abbas et.al.|[2610.39845v1](http://arxiv.org/abs/2610.39845v1)|null|
-|**2026-10-29**|**Learning Kolmogorov Backward Operators for Spectral Analysis and Forecasting: A Data-Driven Variational Galerkin Framework**|Yuanchao Xu et.al.|[2610.39580v1](http://arxiv.org/abs/2610.39580v1)|null|
-|**2026-10-29**|**Linear-Stability-Guided Two-Stage Surrogate Model for Nonlinear ITG-TEM Turbulence**|Y. W. Cho et.al.|[2610.39381v1](http://arxiv.org/abs/2610.39381v1)|null|
-|**2026-10-28**|**Exponential-Nemytskii Neural Operators: Learning Field Evolution Across Step Sizes**|Jingye Li et.al.|[2610.39041v1](http://arxiv.org/abs/2610.39041v1)|null|
-|**2026-10-28**|**Agentic AI Reasoning and Learned Sampling for Task-Aware Projection Selection in Sparse-View CT: Predicting Hemodynamics**|Mahmoud Elhadidy et.al.|[2610.39003v1](http://arxiv.org/abs/2610.39003v1)|null|
-|**2026-10-28**|**Safeguarded Neurally-Accelerated Preconditioning (SNAP) framework for Nonlinear Optimization**|Youngkyu Lee et.al.|[2610.38790v1](http://arxiv.org/abs/2610.38790v1)|null|
-|**2026-10-27**|**Predicting Sparse Observables in Parameterized Unsteady Flows Using Coarse-Mesh Graph Neural Networks**|Brener Ramos et.al.|[2610.37986v1](http://arxiv.org/abs/2610.37986v1)|null|
+|**2026-11-03**|**Deep Neural Operator Learning for stochastic heat equations and applications**|Hengrong Du et.al.|[2611.04955v1](http://arxiv.org/abs/2611.04955v1)|null|
+|**2026-11-03**|**SCANO: Restoring Boundary-Condition Completeness in Sampled Meshes with a Sliced-Cross-Attention Neural Operator for 3D Thermal Fields**|Tianyu Li et.al.|[2611.04603v1](http://arxiv.org/abs/2611.04603v1)|null|
+|**2026-11-03**|**GeoSim: Benchmarking Multi-Field Neural Operators for Geodynamics**|Hailong Liu et.al.|[2611.04517v1](http://arxiv.org/abs/2611.04517v1)|null|
+|**2026-11-03**|**Spin Spherical Fourier Neural Operators: Efficient Equivariant Learning for Vector and Spin Fields on the Sphere**|Kevin Mulder et.al.|[2611.04389v1](http://arxiv.org/abs/2611.04389v1)|null|
+|**2026-11-02**|**DynaSolver: A Neural Operator for Autoregressive 4D Flow Prediction with Dynamic Boundaries**|Rui Qian et.al.|[2611.03595v1](http://arxiv.org/abs/2611.03595v1)|null|
+|**2026-11-02**|**Fracture-Bench: A Controlled Benchmark Suite for Machine Learning Surrogates in Phase-Field Fracture Mechanics**|Meenu Krishnan U. et.al.|[2611.03473v1](http://arxiv.org/abs/2611.03473v1)|null|
+|**2026-11-02**|**Low-Rank Clebsch--Gordan Coupling for Equivariant Spherical Forecasting**|Yaojun Li et.al.|[2611.03411v1](http://arxiv.org/abs/2611.03411v1)|null|
+|**2026-11-02**|**A Geometry-Informed Neural Operator surrogate of LISFLOOD-FP for rapid pluvial-fluvial flood forecasting: the case of Forlì, Italy**|Samuele Maria Garofalo et.al.|[2611.03381v1](http://arxiv.org/abs/2611.03381v1)|null|
+|**2026-11-02**|**Architecture-Aware Mixed Precision for Replica-Exchange Training of Geometry-Aware Neural Operators with Uncertainty Quantification**|Ujin Jeon et.al.|[2611.02427v1](http://arxiv.org/abs/2611.02427v1)|null|
+|**2026-11-01**|**Mesh2Shell Neural Operator for Inverse Shape Optimization**|Xinyi Li et.al.|[2611.02127v1](http://arxiv.org/abs/2611.02127v1)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
@@ -131,6 +131,8 @@
 ### Neural Operators for Aerosol and Lidar
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-11-02**|**Fracture-Bench: A Controlled Benchmark Suite for Machine Learning Surrogates in Phase-Field Fracture Mechanics**|Meenu Krishnan U. et.al.|[2611.03473v1](http://arxiv.org/abs/2611.03473v1)|null|
+|**2026-11-01**|**Mesh2Shell Neural Operator for Inverse Shape Optimization**|Xinyi Li et.al.|[2611.02127v1](http://arxiv.org/abs/2611.02127v1)|null|
 |**2026-10-30**|**Learning Nonlocal Interactions in Large-Scale Heterogeneous Metamaterials through Scientific Machine Learning**|Dex Doksoo Lee et.al.|[2610.41887v1](http://arxiv.org/abs/2610.41887v1)|null|
 |**2026-10-27**|**Rethinking Channel Estimation for Fluid Antenna Systems: A Physics-Informed Operator Learning**|Zixin Wang et.al.|[2610.36787v1](http://arxiv.org/abs/2610.36787v1)|null|
 |**2026-10-22**|**Conditional Mean Flows for Frequency-Domain Scattered Wavefield Generation**|Lipeng Lai et.al.|[2610.31071v1](http://arxiv.org/abs/2610.31071v1)|null|
@@ -139,5 +141,3 @@
 |**2026-10-14**|**A Bregman Proximal Viewpoint on Neural Operators**|Abdel-Rahim Mezidi et.al.|[2610.20120v1](http://arxiv.org/abs/2610.20120v1)|null|
 |**2026-10-12**|**Sampling from Neural Operator Priors to Solve Partial Differential Equations**|Andrew Millard et.al.|[2610.16396v1](http://arxiv.org/abs/2610.16396v1)|null|
 |**2026-10-11**|**Full Waveform Inversion with a Learned Preconditioner**|Jeongjin Park et.al.|[2610.15331v1](http://arxiv.org/abs/2610.15331v1)|null|
-|**2026-10-09**|**SBNO : Schrödinger Bridge Neural Operator for the Forward and Inverse Problems under Missing Information**|Jaehyeon Park et.al.|[2610.13317v1](http://arxiv.org/abs/2610.13317v1)|null|
-|**2026-10-09**|**Neural Surrogate Modeling of Ultrasonic Wave Propagation in Heterogeneous Media**|Burla Nur Korkmaz et.al.|[2610.13258v1](http://arxiv.org/abs/2610.13258v1)|null|
