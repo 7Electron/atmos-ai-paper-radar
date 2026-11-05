@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-11-04 14:45:58 Asia/Shanghai
+ Automated deployment @ 2026-11-05 15:06:14 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -103,16 +103,16 @@
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-11-04**|**A trust layer for fast pedestal-stability surrogates: calibrated error bars, out-of-distribution alarms and few-shot recalibration**|Amin Vakhshouri et.al.|[2611.06597v1](http://arxiv.org/abs/2611.06597v1)|null|
+|**2026-11-04**|**MIGONet: a multiple-input graph neural operator with solver-free discrete manufactured-solution training**|Muhammad Hasnain et.al.|[2611.05876v1](http://arxiv.org/abs/2611.05876v1)|null|
+|**2026-11-04**|**Unsupervised Neural Operators for Rotating Relativistic Stars: High-Fidelity Equation of State Inference and Pulsar Spin Evolution at Scale**|Anarya Ray et.al.|[2611.05790v1](http://arxiv.org/abs/2611.05790v1)|null|
+|**2026-11-03**|**Self-Supervised Learning of Universal Latent Spaces for Operator Learning**|Sepehr Mousavi et.al.|[2611.05735v1](http://arxiv.org/abs/2611.05735v1)|null|
 |**2026-11-03**|**Deep Neural Operator Learning for stochastic heat equations and applications**|Hengrong Du et.al.|[2611.04955v1](http://arxiv.org/abs/2611.04955v1)|null|
+|**2026-11-03**|**Learning Implicit Solves for Dynamic Simulations**|Chawit Kaewnuratchadasorn et.al.|[2611.05439v1](http://arxiv.org/abs/2611.05439v1)|null|
 |**2026-11-03**|**SCANO: Restoring Boundary-Condition Completeness in Sampled Meshes with a Sliced-Cross-Attention Neural Operator for 3D Thermal Fields**|Tianyu Li et.al.|[2611.04603v1](http://arxiv.org/abs/2611.04603v1)|null|
 |**2026-11-03**|**GeoSim: Benchmarking Multi-Field Neural Operators for Geodynamics**|Hailong Liu et.al.|[2611.04517v1](http://arxiv.org/abs/2611.04517v1)|null|
 |**2026-11-03**|**Spin Spherical Fourier Neural Operators: Efficient Equivariant Learning for Vector and Spin Fields on the Sphere**|Kevin Mulder et.al.|[2611.04389v1](http://arxiv.org/abs/2611.04389v1)|null|
 |**2026-11-02**|**DynaSolver: A Neural Operator for Autoregressive 4D Flow Prediction with Dynamic Boundaries**|Rui Qian et.al.|[2611.03595v1](http://arxiv.org/abs/2611.03595v1)|null|
-|**2026-11-02**|**Fracture-Bench: A Controlled Benchmark Suite for Machine Learning Surrogates in Phase-Field Fracture Mechanics**|Meenu Krishnan U. et.al.|[2611.03473v1](http://arxiv.org/abs/2611.03473v1)|null|
-|**2026-11-02**|**Low-Rank Clebsch--Gordan Coupling for Equivariant Spherical Forecasting**|Yaojun Li et.al.|[2611.03411v1](http://arxiv.org/abs/2611.03411v1)|null|
-|**2026-11-02**|**A Geometry-Informed Neural Operator surrogate of LISFLOOD-FP for rapid pluvial-fluvial flood forecasting: the case of Forlì, Italy**|Samuele Maria Garofalo et.al.|[2611.03381v1](http://arxiv.org/abs/2611.03381v1)|null|
-|**2026-11-02**|**Architecture-Aware Mixed Precision for Replica-Exchange Training of Geometry-Aware Neural Operators with Uncertainty Quantification**|Ujin Jeon et.al.|[2611.02427v1](http://arxiv.org/abs/2611.02427v1)|null|
-|**2026-11-01**|**Mesh2Shell Neural Operator for Inverse Shape Optimization**|Xinyi Li et.al.|[2611.02127v1](http://arxiv.org/abs/2611.02127v1)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
