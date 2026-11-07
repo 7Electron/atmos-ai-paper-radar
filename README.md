@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-11-05 15:06:14 Asia/Shanghai
+ Automated deployment @ 2026-11-07 14:18:34 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -103,16 +103,16 @@
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-11-05**|**LithoSAGE: Spatially Adaptive and Geometrically Equivariant Neural Operators for Computational Lithography**|Ke Jin et.al.|[2611.08001v1](http://arxiv.org/abs/2611.08001v1)|null|
+|**2026-11-05**|**WaSP: Wasserstein Data Synthesis Pipeline for Solver-Free Operator Learning**|Ryan Liu et.al.|[2611.07646v1](http://arxiv.org/abs/2611.07646v1)|null|
+|**2026-11-05**|**Infinitely many nonradial positive solutions for two-coupled nonlinear Schrödinger equations in $\bbr^N$ without symmetry**|Rui He et.al.|[2611.07359v1](http://arxiv.org/abs/2611.07359v1)|null|
+|**2026-11-04**|**A hierarchy of physics-embedded neural operators for structural dynamic surrogate modelingA hierarchy of physics-embedded neural operators for structural dynamic surrogate modeling**|Amir Ansrollahi et.al.|[2611.07059v1](http://arxiv.org/abs/2611.07059v1)|null|
+|**2026-11-04**|**FNO-Based Inverse Co-Design of Semiconducting Quantum-Dot Devices**|Marek Rychetsky et.al.|[2611.06994v1](http://arxiv.org/abs/2611.06994v1)|null|
 |**2026-11-04**|**A trust layer for fast pedestal-stability surrogates: calibrated error bars, out-of-distribution alarms and few-shot recalibration**|Amin Vakhshouri et.al.|[2611.06597v1](http://arxiv.org/abs/2611.06597v1)|null|
 |**2026-11-04**|**MIGONet: a multiple-input graph neural operator with solver-free discrete manufactured-solution training**|Muhammad Hasnain et.al.|[2611.05876v1](http://arxiv.org/abs/2611.05876v1)|null|
 |**2026-11-04**|**Unsupervised Neural Operators for Rotating Relativistic Stars: High-Fidelity Equation of State Inference and Pulsar Spin Evolution at Scale**|Anarya Ray et.al.|[2611.05790v1](http://arxiv.org/abs/2611.05790v1)|null|
 |**2026-11-03**|**Self-Supervised Learning of Universal Latent Spaces for Operator Learning**|Sepehr Mousavi et.al.|[2611.05735v1](http://arxiv.org/abs/2611.05735v1)|null|
 |**2026-11-03**|**Deep Neural Operator Learning for stochastic heat equations and applications**|Hengrong Du et.al.|[2611.04955v1](http://arxiv.org/abs/2611.04955v1)|null|
-|**2026-11-03**|**Learning Implicit Solves for Dynamic Simulations**|Chawit Kaewnuratchadasorn et.al.|[2611.05439v1](http://arxiv.org/abs/2611.05439v1)|null|
-|**2026-11-03**|**SCANO: Restoring Boundary-Condition Completeness in Sampled Meshes with a Sliced-Cross-Attention Neural Operator for 3D Thermal Fields**|Tianyu Li et.al.|[2611.04603v1](http://arxiv.org/abs/2611.04603v1)|null|
-|**2026-11-03**|**GeoSim: Benchmarking Multi-Field Neural Operators for Geodynamics**|Hailong Liu et.al.|[2611.04517v1](http://arxiv.org/abs/2611.04517v1)|null|
-|**2026-11-03**|**Spin Spherical Fourier Neural Operators: Efficient Equivariant Learning for Vector and Spin Fields on the Sphere**|Kevin Mulder et.al.|[2611.04389v1](http://arxiv.org/abs/2611.04389v1)|null|
-|**2026-11-02**|**DynaSolver: A Neural Operator for Autoregressive 4D Flow Prediction with Dynamic Boundaries**|Rui Qian et.al.|[2611.03595v1](http://arxiv.org/abs/2611.03595v1)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
@@ -131,6 +131,7 @@
 ### Neural Operators for Aerosol and Lidar
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-11-04**|**FNO-Based Inverse Co-Design of Semiconducting Quantum-Dot Devices**|Marek Rychetsky et.al.|[2611.06994v1](http://arxiv.org/abs/2611.06994v1)|null|
 |**2026-11-02**|**Fracture-Bench: A Controlled Benchmark Suite for Machine Learning Surrogates in Phase-Field Fracture Mechanics**|Meenu Krishnan U. et.al.|[2611.03473v1](http://arxiv.org/abs/2611.03473v1)|null|
 |**2026-11-01**|**Mesh2Shell Neural Operator for Inverse Shape Optimization**|Xinyi Li et.al.|[2611.02127v1](http://arxiv.org/abs/2611.02127v1)|null|
 |**2026-10-30**|**Learning Nonlocal Interactions in Large-Scale Heterogeneous Metamaterials through Scientific Machine Learning**|Dex Doksoo Lee et.al.|[2610.41887v1](http://arxiv.org/abs/2610.41887v1)|null|
@@ -140,4 +141,3 @@
 |**2026-10-16**|**Neural Operators Reveal Scale-Dependent Limits on Recovering Greenland Ice Loss from Sea Level Fingerprints**|Xiyuan Bao et.al.|[2610.23748v1](http://arxiv.org/abs/2610.23748v1)|null|
 |**2026-10-14**|**A Bregman Proximal Viewpoint on Neural Operators**|Abdel-Rahim Mezidi et.al.|[2610.20120v1](http://arxiv.org/abs/2610.20120v1)|null|
 |**2026-10-12**|**Sampling from Neural Operator Priors to Solve Partial Differential Equations**|Andrew Millard et.al.|[2610.16396v1](http://arxiv.org/abs/2610.16396v1)|null|
-|**2026-10-11**|**Full Waveform Inversion with a Learned Preconditioner**|Jeongjin Park et.al.|[2610.15331v1](http://arxiv.org/abs/2610.15331v1)|null|
