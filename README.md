@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-11-08 14:24:11 Asia/Shanghai
+ Automated deployment @ 2026-11-09 14:56:54 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -103,20 +103,21 @@
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-11-06**|**BiLoGo: Reducing the smoothing of localised responses in Transformer-based neural operators for sheet forming**|Yingxue Zhao et.al.|[2611.09621v1](http://arxiv.org/abs/2611.09621v1)|null|
+|**2026-11-06**|**TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates**|Jarno Platenburg et.al.|[2611.09567v1](http://arxiv.org/abs/2611.09567v1)|null|
+|**2026-11-06**|**Boundary singularities for the Lane-Emden equation**|Weiwei Ao et.al.|[2611.09221v1](http://arxiv.org/abs/2611.09221v1)|null|
+|**2026-11-06**|**Function-Space Certification for Neural Operators**|Ryan Hsiang et.al.|[2611.09038v1](http://arxiv.org/abs/2611.09038v1)|null|
 |**2026-11-05**|**LithoSAGE: Spatially Adaptive and Geometrically Equivariant Neural Operators for Computational Lithography**|Ke Jin et.al.|[2611.08001v1](http://arxiv.org/abs/2611.08001v1)|null|
 |**2026-11-05**|**WaSP: Wasserstein Data Synthesis Pipeline for Solver-Free Operator Learning**|Ryan Liu et.al.|[2611.07646v1](http://arxiv.org/abs/2611.07646v1)|null|
 |**2026-11-05**|**Infinitely many nonradial positive solutions for two-coupled nonlinear Schrödinger equations in $\bbr^N$ without symmetry**|Rui He et.al.|[2611.07359v1](http://arxiv.org/abs/2611.07359v1)|null|
-|**2026-11-04**|**A hierarchy of physics-embedded neural operators for structural dynamic surrogate modelingA hierarchy of physics-embedded neural operators for structural dynamic surrogate modeling**|Amir Ansrollahi et.al.|[2611.07059v1](http://arxiv.org/abs/2611.07059v1)|null|
+|**2026-11-04**|**A hierarchy of physics-embedded neural operators for structural dynamic surrogate modeling**|Amir Nasrollahi et.al.|[2611.07059v2](http://arxiv.org/abs/2611.07059v2)|null|
 |**2026-11-04**|**FNO-Based Inverse Co-Design of Semiconducting Quantum-Dot Devices**|Marek Rychetsky et.al.|[2611.06994v1](http://arxiv.org/abs/2611.06994v1)|null|
 |**2026-11-04**|**A trust layer for fast pedestal-stability surrogates: calibrated error bars, out-of-distribution alarms and few-shot recalibration**|Amin Vakhshouri et.al.|[2611.06597v1](http://arxiv.org/abs/2611.06597v1)|null|
-|**2026-11-04**|**MIGONet: a multiple-input graph neural operator with solver-free discrete manufactured-solution training**|Muhammad Hasnain et.al.|[2611.05876v1](http://arxiv.org/abs/2611.05876v1)|null|
-|**2026-11-04**|**Unsupervised Neural Operators for Rotating Relativistic Stars: High-Fidelity Equation of State Inference and Pulsar Spin Evolution at Scale**|Anarya Ray et.al.|[2611.05790v1](http://arxiv.org/abs/2611.05790v1)|null|
-|**2026-11-03**|**Self-Supervised Learning of Universal Latent Spaces for Operator Learning**|Sepehr Mousavi et.al.|[2611.05735v1](http://arxiv.org/abs/2611.05735v1)|null|
-|**2026-11-03**|**Deep Neural Operator Learning for stochastic heat equations and applications**|Hengrong Du et.al.|[2611.04955v1](http://arxiv.org/abs/2611.04955v1)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-11-06**|**Function-Space Certification for Neural Operators**|Ryan Hsiang et.al.|[2611.09038v1](http://arxiv.org/abs/2611.09038v1)|null|
 |**2026-10-24**|**An actively trained neural operator for near-explicit atmospheric chemistry**|Zhi-Song Liu et.al.|[2610.33771v2](http://arxiv.org/abs/2610.33771v2)|null|
 |**2026-10-24**|**FreqPKC: Frequency-Aware PeakConv for Radar Semantic Segmentation**|Yangyong Deng et.al.|[2610.33504v1](http://arxiv.org/abs/2610.33504v1)|null|
 |**2026-10-24**|**Climate downscaling with likelihood functional flow matching**|Zhi-Song Liu et.al.|[2610.33482v2](http://arxiv.org/abs/2610.33482v2)|null|
@@ -126,7 +127,6 @@
 |**2026-09-26**|**Generalizable Neural Downscaling of Earth System Model Wind Fields via Continuous Dynamics Modeling**|Chenxi Yu et.al.|[2610.03757v1](http://arxiv.org/abs/2610.03757v1)|null|
 |**2026-09-14**|**Beyond the Graph: An Adaptive Meta-Learner Fuses Explainability, Weather, and Dynamics for Robust Bus ETA Prediction**|Pratham Payra et.al.|[2609.31667v1](http://arxiv.org/abs/2609.31667v1)|null|
 |**2026-09-08**|**Neptune: An AI model for Global Ocean Subseasonal Prediction**|Davide Donno et.al.|[2609.08606v1](http://arxiv.org/abs/2609.08606v1)|null|
-|**2026-08-27**|**Dandelion: A Spherical Flower for Neural Simulation of Planetary Dynamics**|Till Muser et.al.|[2608.27521v1](http://arxiv.org/abs/2608.27521v1)|null|
 
 ### Neural Operators for Aerosol and Lidar
 |Publish Date|Title|Authors|PDF|Code|
