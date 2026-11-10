@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-11-09 14:56:54 Asia/Shanghai
+ Automated deployment @ 2026-11-10 15:33:36 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -8,6 +8,7 @@
 ### Dust Aerosols
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-11-09**|**Ångström Exponent Calculation Using Wide-Field Stellar Photometry**|Shefali Negi et.al.|[2611.12704v1](http://arxiv.org/abs/2611.12704v1)|null|
 |**2026-10-30**|**Laboratory study of mineral dust optical properties extending in the far-infrared spectral range**|Perla Alalam et.al.|[2610.41907v1](http://arxiv.org/abs/2610.41907v1)|null|
 |**2026-10-13**|**3D Global Climate Simulations of Synthetic Mars Warming**|Tom N. Landefeld et.al.|[2610.18114v3](http://arxiv.org/abs/2610.18114v3)|null|
 |**2026-10-12**|**Extinction by non-spherical particles with the Nanoparticle Transition Matrix Code: perspectives for interstellar medium and exoplanetary atmospheres**|G. La Mura et.al.|[2610.17081v1](http://arxiv.org/abs/2610.17081v1)|null|
@@ -17,11 +18,12 @@
 |**2026-08-26**|**HoloCMA: A Holographic Eye on Coarse-Mode Aerosols**|Nikil Krishnakumar et.al.|[2608.26466v1](http://arxiv.org/abs/2608.26466v1)|null|
 |**2026-08-14**|**Impacts of Sulfate Injection Geoengineering on Particulate Matter with Diameter less than 2.5 μm**|Lili Xia et.al.|[2608.14928v1](http://arxiv.org/abs/2608.14928v1)|null|
 |**2026-08-12**|**Altered Cosmic Organics as Venus' Ultraviolet Absorbers**|Rakesh Mogul et.al.|[2608.11696v1](http://arxiv.org/abs/2608.11696v1)|null|
-|**2026-06-09**|**Kinetics of coagulation phenomena from a granular matter perspective**|Gustavo Castillo et.al.|[2606.14768v1](http://arxiv.org/abs/2606.14768v1)|null|
 
 ### Aerosol Optical Properties
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-11-09**|**Ångström Exponent Calculation Using Wide-Field Stellar Photometry**|Shefali Negi et.al.|[2611.12704v1](http://arxiv.org/abs/2611.12704v1)|null|
+|**2026-11-03**|**Standoff chemical identification of harmful aerosols**|Garrett C. Mathews et.al.|[2611.09999v1](http://arxiv.org/abs/2611.09999v1)|null|
 |**2026-10-30**|**Laboratory study of mineral dust optical properties extending in the far-infrared spectral range**|Perla Alalam et.al.|[2610.41907v1](http://arxiv.org/abs/2610.41907v1)|null|
 |**2026-10-13**|**Collaborative Neural Networks significantly Improve Global Aerosol Retrievals From Multi-Angle Polarimeters**|Guangliang Fu et.al.|[2610.19217v1](http://arxiv.org/abs/2610.19217v1)|null|
 |**2026-10-12**|**Extinction by non-spherical particles with the Nanoparticle Transition Matrix Code: perspectives for interstellar medium and exoplanetary atmospheres**|G. La Mura et.al.|[2610.17081v1](http://arxiv.org/abs/2610.17081v1)|null|
@@ -30,8 +32,6 @@
 |**2026-07-05**|**Assessing the Impact of Varying HSO Cross Sections on Photochemical Models: Implications for the Spectral Characterization of Terrestrial Exoplanets**|Alexandre Branco et.al.|[2607.04275v1](http://arxiv.org/abs/2607.04275v1)|null|
 |**2026-06-22**|**Imaging aerosolized viruses with an X-ray free-electron laser using single-particle rotational invariants**|Tim B. Berberich et.al.|[2606.23396v1](http://arxiv.org/abs/2606.23396v1)|null|
 |**2026-06-02**|**Characterizing Transiting Exoplanet Atmospheres in the 2030s with the Hubble Space Telescope**|Joshua D. Lothringer et.al.|[2606.04144v1](http://arxiv.org/abs/2606.04144v1)|null|
-|**2026-05-28**|**Optical transmission spectrum of HAT-P-47b: evidence for aerosols and tentative TiO absorption**|Wan-Hao Wang et.al.|[2605.29445v1](http://arxiv.org/abs/2605.29445v1)|null|
-|**2026-04-08**|**Recognition of Nanoparticle and Microdroplet Parameters in Levitating Microdroplets of Suspension by Speckle Image Analysis Using Convolutional Neural Networks**|Yaroslav Shopa et.al.|[2604.06935v2](http://arxiv.org/abs/2604.06935v2)|null|
 
 ## Lidar Remote Sensing
 
@@ -59,6 +59,7 @@
 ### Lidar Extinction and Backscatter
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-11-03**|**Standoff chemical identification of harmful aerosols**|Garrett C. Mathews et.al.|[2611.09999v1](http://arxiv.org/abs/2611.09999v1)|null|
 |**2026-09-04**|**Gaussian Linear Functional Manifold Method for Massive Point Cloud Data**|Hong Zhao et.al.|[2609.05744v1](http://arxiv.org/abs/2609.05744v1)|null|
 |**2026-08-18**|**Spatially explicit feature importance for building height estimation using research-access high-resolution SAR and optical sensors**|Guilherme Iablonovski et.al.|[2608.17822v1](http://arxiv.org/abs/2608.17822v1)|null|
 |**2026-08-10**|**Anemometer-free indoor calibration of Doppler lidar using fiber optics and Monte Carlo simulation**|Andrew Black et.al.|[2609.20851v1](http://arxiv.org/abs/2609.20851v1)|null|
@@ -68,7 +69,6 @@
 |**2026-01-27**|**Thermo-optic modulator with ultra-high extinction ratio for low-loss silicon nitride integrated photonics**|Dmitriy Serkin et.al.|[2601.19732v1](http://arxiv.org/abs/2601.19732v1)|null|
 |**2025-11-23**|**Physically Informed Bayesian Retrieval of SWE and Snow Depth in Forested Areas from Airborne X And Ku-Band SAR Measurements**|Siddharth Singh et.al.|[2511.18564v1](http://arxiv.org/abs/2511.18564v1)|null|
 |**2025-10-27**|**Design of Backscatter Tailored Optical Fibers for distributed magnetic field sensing using Fiber Optic Pulsed Polarimetry**|Roger J Smith et.al.|[2510.23562v1](http://arxiv.org/abs/2510.23562v1)|null|
-|**2025-10-24**|**Bayesian approach for spatial super-resolution of heterodyne wind lidars**|Theo Martin et.al.|[2510.21288v2](http://arxiv.org/abs/2510.21288v2)|null|
 
 ## Atmospheric AI
 
@@ -103,16 +103,16 @@
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-11-09**|**Operator Learning of Microstructure-Dependent Internal-Variable Models for Inelastic Homogenization: Approximation and Complexity**|Lianghao Cao et.al.|[2611.11805v1](http://arxiv.org/abs/2611.11805v1)|null|
+|**2026-11-09**|**Structure-Informed Electromagnetic Feedback Control of the Vlasov-Maxwell System with Delayed Observations**|Jingcheng Lu et.al.|[2611.11787v1](http://arxiv.org/abs/2611.11787v1)|null|
+|**2026-11-08**|**ALETHEIA: A Multi-Frequency Eddy Current Pulsed Thermography Dataset for Neural Operator Learning in Nondestructive Testing**|Changbin Sun et.al.|[2611.11252v1](http://arxiv.org/abs/2611.11252v1)|null|
+|**2026-11-07**|**CoupledFlow: One-Step Neural Operators for Coupled Multi-Physics PDEs**|Trong Khiem Tran et.al.|[2611.10945v1](http://arxiv.org/abs/2611.10945v1)|null|
+|**2026-11-07**|**Neural Operator Surrogates for Landweber Iteration in Solving Inverse Problems**|Kuo Gai et.al.|[2611.10865v1](http://arxiv.org/abs/2611.10865v1)|null|
+|**2026-11-07**|**Dynamic State Estimation from Sparse PMUs via Physics-Informed Graph Neural Operators**|Huy Hoang Le et.al.|[2611.10468v1](http://arxiv.org/abs/2611.10468v1)|null|
+|**2026-11-06**|**Rethinking How to Leverage Cheap Physics for Data-Efficient Neural Operators**|Shuo Zhang et.al.|[2611.10217v1](http://arxiv.org/abs/2611.10217v1)|null|
 |**2026-11-06**|**BiLoGo: Reducing the smoothing of localised responses in Transformer-based neural operators for sheet forming**|Yingxue Zhao et.al.|[2611.09621v1](http://arxiv.org/abs/2611.09621v1)|null|
 |**2026-11-06**|**TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates**|Jarno Platenburg et.al.|[2611.09567v1](http://arxiv.org/abs/2611.09567v1)|null|
 |**2026-11-06**|**Boundary singularities for the Lane-Emden equation**|Weiwei Ao et.al.|[2611.09221v1](http://arxiv.org/abs/2611.09221v1)|null|
-|**2026-11-06**|**Function-Space Certification for Neural Operators**|Ryan Hsiang et.al.|[2611.09038v1](http://arxiv.org/abs/2611.09038v1)|null|
-|**2026-11-05**|**LithoSAGE: Spatially Adaptive and Geometrically Equivariant Neural Operators for Computational Lithography**|Ke Jin et.al.|[2611.08001v1](http://arxiv.org/abs/2611.08001v1)|null|
-|**2026-11-05**|**WaSP: Wasserstein Data Synthesis Pipeline for Solver-Free Operator Learning**|Ryan Liu et.al.|[2611.07646v1](http://arxiv.org/abs/2611.07646v1)|null|
-|**2026-11-05**|**Infinitely many nonradial positive solutions for two-coupled nonlinear Schrödinger equations in $\bbr^N$ without symmetry**|Rui He et.al.|[2611.07359v1](http://arxiv.org/abs/2611.07359v1)|null|
-|**2026-11-04**|**A hierarchy of physics-embedded neural operators for structural dynamic surrogate modeling**|Amir Nasrollahi et.al.|[2611.07059v2](http://arxiv.org/abs/2611.07059v2)|null|
-|**2026-11-04**|**FNO-Based Inverse Co-Design of Semiconducting Quantum-Dot Devices**|Marek Rychetsky et.al.|[2611.06994v1](http://arxiv.org/abs/2611.06994v1)|null|
-|**2026-11-04**|**A trust layer for fast pedestal-stability surrogates: calibrated error bars, out-of-distribution alarms and few-shot recalibration**|Amin Vakhshouri et.al.|[2611.06597v1](http://arxiv.org/abs/2611.06597v1)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
@@ -131,6 +131,9 @@
 ### Neural Operators for Aerosol and Lidar
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-11-09**|**Operator Learning of Microstructure-Dependent Internal-Variable Models for Inelastic Homogenization: Approximation and Complexity**|Lianghao Cao et.al.|[2611.11805v1](http://arxiv.org/abs/2611.11805v1)|null|
+|**2026-11-08**|**ALETHEIA: A Multi-Frequency Eddy Current Pulsed Thermography Dataset for Neural Operator Learning in Nondestructive Testing**|Changbin Sun et.al.|[2611.11252v1](http://arxiv.org/abs/2611.11252v1)|null|
+|**2026-11-07**|**Neural Operator Surrogates for Landweber Iteration in Solving Inverse Problems**|Kuo Gai et.al.|[2611.10865v1](http://arxiv.org/abs/2611.10865v1)|null|
 |**2026-11-04**|**FNO-Based Inverse Co-Design of Semiconducting Quantum-Dot Devices**|Marek Rychetsky et.al.|[2611.06994v1](http://arxiv.org/abs/2611.06994v1)|null|
 |**2026-11-02**|**Fracture-Bench: A Controlled Benchmark Suite for Machine Learning Surrogates in Phase-Field Fracture Mechanics**|Meenu Krishnan U. et.al.|[2611.03473v1](http://arxiv.org/abs/2611.03473v1)|null|
 |**2026-11-01**|**Mesh2Shell Neural Operator for Inverse Shape Optimization**|Xinyi Li et.al.|[2611.02127v1](http://arxiv.org/abs/2611.02127v1)|null|
@@ -138,6 +141,3 @@
 |**2026-10-27**|**Rethinking Channel Estimation for Fluid Antenna Systems: A Physics-Informed Operator Learning**|Zixin Wang et.al.|[2610.36787v1](http://arxiv.org/abs/2610.36787v1)|null|
 |**2026-10-22**|**Conditional Mean Flows for Frequency-Domain Scattered Wavefield Generation**|Lipeng Lai et.al.|[2610.31071v1](http://arxiv.org/abs/2610.31071v1)|null|
 |**2026-10-16**|**Localizing and quantifying cerebral arterial stenosis from sparse velocity waveforms using a conditional neural operator**|Tong Zhu et.al.|[2610.23774v1](http://arxiv.org/abs/2610.23774v1)|null|
-|**2026-10-16**|**Neural Operators Reveal Scale-Dependent Limits on Recovering Greenland Ice Loss from Sea Level Fingerprints**|Xiyuan Bao et.al.|[2610.23748v1](http://arxiv.org/abs/2610.23748v1)|null|
-|**2026-10-14**|**A Bregman Proximal Viewpoint on Neural Operators**|Abdel-Rahim Mezidi et.al.|[2610.20120v1](http://arxiv.org/abs/2610.20120v1)|null|
-|**2026-10-12**|**Sampling from Neural Operator Priors to Solve Partial Differential Equations**|Andrew Millard et.al.|[2610.16396v1](http://arxiv.org/abs/2610.16396v1)|null|
