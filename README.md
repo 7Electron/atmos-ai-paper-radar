@@ -1,5 +1,5 @@
 # arxiv-daily
- Automated deployment @ 2026-11-10 15:33:36 Asia/Shanghai
+ Automated deployment @ 2026-11-11 14:51:09 Asia/Shanghai
 > Welcome to contribute! Add your topics and keywords in [`topic.yml`](https://github.com/beiyuouo/arxiv-daily/blob/main/database/topic.yml).
 > You can also view historical data through the [storage](https://github.com/beiyuouo/arxiv-daily/blob/main/database/storage).
 
@@ -103,20 +103,21 @@
 ### General Neural Operator Methods
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-11-10**|**Universal Approximation Theorem for Metaplectic Neural Operators**|Ahmed Abdeljawad et.al.|[2611.13991v1](http://arxiv.org/abs/2611.13991v1)|null|
+|**2026-11-10**|**Beyond Fourier and Laplace: The Hankel Neural Operator for Learning Solution Operators of Differential Equations**|Biswanath Barman et.al.|[2611.13989v1](http://arxiv.org/abs/2611.13989v1)|null|
+|**2026-11-10**|**Multiscale LegONet: Learning Coefficient-Dependent Local Spaces for Composable Multiscale Finite Elements with Localized Error Bounds**|Yueqi Wang et.al.|[2611.13515v1](http://arxiv.org/abs/2611.13515v1)|null|
+|**2026-11-09**|**Reconstructing Boundary Layer Wind Profiles with Machine Learning: A Comparative Study on IGRA Radiosonde Data**|Fedor Buzaev et.al.|[2611.13359v1](http://arxiv.org/abs/2611.13359v1)|null|
 |**2026-11-09**|**Operator Learning of Microstructure-Dependent Internal-Variable Models for Inelastic Homogenization: Approximation and Complexity**|Lianghao Cao et.al.|[2611.11805v1](http://arxiv.org/abs/2611.11805v1)|null|
 |**2026-11-09**|**Structure-Informed Electromagnetic Feedback Control of the Vlasov-Maxwell System with Delayed Observations**|Jingcheng Lu et.al.|[2611.11787v1](http://arxiv.org/abs/2611.11787v1)|null|
 |**2026-11-08**|**ALETHEIA: A Multi-Frequency Eddy Current Pulsed Thermography Dataset for Neural Operator Learning in Nondestructive Testing**|Changbin Sun et.al.|[2611.11252v1](http://arxiv.org/abs/2611.11252v1)|null|
 |**2026-11-07**|**CoupledFlow: One-Step Neural Operators for Coupled Multi-Physics PDEs**|Trong Khiem Tran et.al.|[2611.10945v1](http://arxiv.org/abs/2611.10945v1)|null|
 |**2026-11-07**|**Neural Operator Surrogates for Landweber Iteration in Solving Inverse Problems**|Kuo Gai et.al.|[2611.10865v1](http://arxiv.org/abs/2611.10865v1)|null|
 |**2026-11-07**|**Dynamic State Estimation from Sparse PMUs via Physics-Informed Graph Neural Operators**|Huy Hoang Le et.al.|[2611.10468v1](http://arxiv.org/abs/2611.10468v1)|null|
-|**2026-11-06**|**Rethinking How to Leverage Cheap Physics for Data-Efficient Neural Operators**|Shuo Zhang et.al.|[2611.10217v1](http://arxiv.org/abs/2611.10217v1)|null|
-|**2026-11-06**|**BiLoGo: Reducing the smoothing of localised responses in Transformer-based neural operators for sheet forming**|Yingxue Zhao et.al.|[2611.09621v1](http://arxiv.org/abs/2611.09621v1)|null|
-|**2026-11-06**|**TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates**|Jarno Platenburg et.al.|[2611.09567v1](http://arxiv.org/abs/2611.09567v1)|null|
-|**2026-11-06**|**Boundary singularities for the Lane-Emden equation**|Weiwei Ao et.al.|[2611.09221v1](http://arxiv.org/abs/2611.09221v1)|null|
 
 ### Neural Operators for Atmosphere
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-11-09**|**Reconstructing Boundary Layer Wind Profiles with Machine Learning: A Comparative Study on IGRA Radiosonde Data**|Fedor Buzaev et.al.|[2611.13359v1](http://arxiv.org/abs/2611.13359v1)|null|
 |**2026-11-06**|**Function-Space Certification for Neural Operators**|Ryan Hsiang et.al.|[2611.09038v1](http://arxiv.org/abs/2611.09038v1)|null|
 |**2026-10-24**|**An actively trained neural operator for near-explicit atmospheric chemistry**|Zhi-Song Liu et.al.|[2610.33771v2](http://arxiv.org/abs/2610.33771v2)|null|
 |**2026-10-24**|**FreqPKC: Frequency-Aware PeakConv for Radar Semantic Segmentation**|Yangyong Deng et.al.|[2610.33504v1](http://arxiv.org/abs/2610.33504v1)|null|
@@ -126,11 +127,11 @@
 |**2026-09-28**|**CasEm: A Cascade Architecture for Long-Horizon Neural Emulation**|Zhaoyi Li et.al.|[2609.34246v1](http://arxiv.org/abs/2609.34246v1)|null|
 |**2026-09-26**|**Generalizable Neural Downscaling of Earth System Model Wind Fields via Continuous Dynamics Modeling**|Chenxi Yu et.al.|[2610.03757v1](http://arxiv.org/abs/2610.03757v1)|null|
 |**2026-09-14**|**Beyond the Graph: An Adaptive Meta-Learner Fuses Explainability, Weather, and Dynamics for Robust Bus ETA Prediction**|Pratham Payra et.al.|[2609.31667v1](http://arxiv.org/abs/2609.31667v1)|null|
-|**2026-09-08**|**Neptune: An AI model for Global Ocean Subseasonal Prediction**|Davide Donno et.al.|[2609.08606v1](http://arxiv.org/abs/2609.08606v1)|null|
 
 ### Neural Operators for Aerosol and Lidar
 |Publish Date|Title|Authors|PDF|Code|
 | :---: | :---: | :---: | :---: | :---: |
+|**2026-11-09**|**Reconstructing Boundary Layer Wind Profiles with Machine Learning: A Comparative Study on IGRA Radiosonde Data**|Fedor Buzaev et.al.|[2611.13359v1](http://arxiv.org/abs/2611.13359v1)|null|
 |**2026-11-09**|**Operator Learning of Microstructure-Dependent Internal-Variable Models for Inelastic Homogenization: Approximation and Complexity**|Lianghao Cao et.al.|[2611.11805v1](http://arxiv.org/abs/2611.11805v1)|null|
 |**2026-11-08**|**ALETHEIA: A Multi-Frequency Eddy Current Pulsed Thermography Dataset for Neural Operator Learning in Nondestructive Testing**|Changbin Sun et.al.|[2611.11252v1](http://arxiv.org/abs/2611.11252v1)|null|
 |**2026-11-07**|**Neural Operator Surrogates for Landweber Iteration in Solving Inverse Problems**|Kuo Gai et.al.|[2611.10865v1](http://arxiv.org/abs/2611.10865v1)|null|
@@ -140,4 +141,3 @@
 |**2026-10-30**|**Learning Nonlocal Interactions in Large-Scale Heterogeneous Metamaterials through Scientific Machine Learning**|Dex Doksoo Lee et.al.|[2610.41887v1](http://arxiv.org/abs/2610.41887v1)|null|
 |**2026-10-27**|**Rethinking Channel Estimation for Fluid Antenna Systems: A Physics-Informed Operator Learning**|Zixin Wang et.al.|[2610.36787v1](http://arxiv.org/abs/2610.36787v1)|null|
 |**2026-10-22**|**Conditional Mean Flows for Frequency-Domain Scattered Wavefield Generation**|Lipeng Lai et.al.|[2610.31071v1](http://arxiv.org/abs/2610.31071v1)|null|
-|**2026-10-16**|**Localizing and quantifying cerebral arterial stenosis from sparse velocity waveforms using a conditional neural operator**|Tong Zhu et.al.|[2610.23774v1](http://arxiv.org/abs/2610.23774v1)|null|
